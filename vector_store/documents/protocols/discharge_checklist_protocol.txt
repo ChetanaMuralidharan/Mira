@@ -1,0 +1,33 @@
+Discharge Checklist Protocol — Institutional Policy
+
+PURPOSE
+
+This protocol establishes a standardized discharge checklist to be completed prior to every inpatient discharge, ensuring consistent attention to the core components of safe transition from inpatient to outpatient care. Inconsistent discharge practices have been identified as a major contributing factor to post-discharge adverse events and readmissions, and standardization through a checklist-based approach has been shown to reduce variability in discharge quality across different providers and units.
+
+CLINICAL READINESS FOR DISCHARGE
+
+Prior to discharge, the responsible provider must confirm and document that the patient has met defined clinical stability criteria appropriate to their admitting diagnosis, generally including hemodynamic stability without escalating support requirements over the preceding 24 hours, adequate oral intake and pain control, ability to ambulate at baseline or with an appropriate assistive device and support plan, and resolution or adequate control of the primary issue prompting admission. For specific conditions with defined discharge criteria, such as heart failure requiring confirmation of euvolemia or diabetic ketoacidosis requiring confirmation of anion gap closure, condition-specific criteria take precedence over general criteria.
+
+MEDICATION RECONCILIATION AND PRESCRIPTIONS
+
+The discharge medication list must be reconciled against the admission medication list per the institutional medication reconciliation protocol, with all discrepancies explicitly resolved and documented. All new prescriptions must be sent electronically to an active pharmacy identified by the patient prior to discharge, and the care team must confirm the patient has a realistic plan to obtain and afford these medications, including screening for cost barriers that might affect adherence. Patients started on high-risk medications during the admission, such as anticoagulants or insulin, require documented discharge education specific to that medication, including administration technique where applicable and signs of adverse effects requiring urgent attention.
+
+FOLLOW-UP APPOINTMENTS
+
+A follow-up appointment with an appropriate outpatient provider must be scheduled prior to discharge whenever feasible, rather than leaving scheduling to the patient after discharge. For high-risk conditions including heart failure, COPD exacerbation, and recent myocardial infarction, follow-up should be scheduled within 7 days of discharge given the elevated early readmission risk in these populations. The discharging team must confirm the patient has transportation to the follow-up appointment and address any identified barriers prior to discharge, since transportation barriers are among the most common reasons for missed follow-up visits.
+
+PATIENT EDUCATION AND TEACH-BACK
+
+Discharge education must cover the primary diagnosis in patient-accessible language, warning signs that should prompt the patient to seek urgent care or return to the emergency department, activity restrictions if applicable, and dietary modifications if applicable. Education should be delivered using teach-back methodology, asking the patient or caregiver to restate key instructions in their own words, rather than relying solely on written discharge materials, given substantial evidence that teach-back improves retention and identifies gaps in understanding that passive information delivery does not reveal.
+
+DURABLE MEDICAL EQUIPMENT AND HOME SERVICES
+
+For patients requiring durable medical equipment such as oxygen, a hospital bed, or mobility aids, arrangements must be confirmed and documented prior to discharge, including confirmation that equipment will be available at the patient's home at the time of arrival rather than arranged as a pending order to be fulfilled after discharge. For patients requiring home health services, skilled nursing visits, or home infusion therapy, referrals must be submitted and a confirmed first visit date documented prior to discharge whenever possible.
+
+COMMUNICATION WITH RECEIVING PROVIDERS
+
+A discharge summary must be completed and transmitted to the patient's primary care provider and any relevant specialists within 48 hours of discharge, containing the admission diagnosis, key events during hospitalization, discharge medications with explicit notation of any changes from prior regimen, pending test results at the time of discharge, and specific follow-up recommendations. Delayed or incomplete discharge summary transmission is a recognized contributor to fragmented post-discharge care and has been directly associated with increased readmission risk in health services research.
+
+CHECKLIST COMPLETION AND ACCOUNTABILITY
+
+The complete discharge checklist must be documented in the electronic health record and co-signed by the responsible provider prior to the patient's physical discharge from the unit. Compliance with full checklist completion is monitored as an institutional quality metric, with monthly reporting to unit-level nursing and physician leadership, and case review for any discharge associated with a subsequent 7-day readmission to identify whether incomplete checklist items may have contributed.

@@ -1,0 +1,33 @@
+Abnormal Lab Result Escalation Protocol — Institutional Policy
+
+PURPOSE
+
+This protocol defines the required escalation pathway when a laboratory result falls outside defined critical or significantly abnormal thresholds, ensuring timely clinical review and intervention rather than relying on routine result review workflows that may introduce unacceptable delay for values with immediate patient safety implications.
+
+CRITICAL VALUE DEFINITIONS
+
+Critical values are results that represent an immediate, potentially life-threatening abnormality requiring urgent clinical notification regardless of time of day. Institutionally defined critical values include but are not limited to: potassium below 2.5 or above 6.5 mEq/L, glucose below 40 or above 500 mg/dL, sodium below 120 or above 160 mEq/L, hemoglobin below 6.0 g/dL, platelet count below 20,000/microliter, INR above 5.0 in a patient not on anticoagulation for a mechanical valve, troponin above the 99th percentile upper reference limit in the context of suspected acute coronary syndrome, arterial pH below 7.2 or above 7.6, and positive blood cultures growing organisms in a sterile site. This list is reviewed and updated annually by the laboratory medical director in conjunction with clinical department chairs.
+
+Significantly abnormal values, distinct from critical values, are results outside the normal reference range that warrant clinical attention but do not require the same immediacy of notification. These include values such as A1c above 9%, LDL cholesterol above 190 mg/dL, or a new abnormal thyroid stimulating hormone value in a patient without a known thyroid diagnosis. Significantly abnormal values are routed through standard result review workflows with an expectation of review within 24 to 48 hours rather than immediate notification.
+
+NOTIFICATION REQUIREMENTS FOR CRITICAL VALUES
+
+Upon identification of a critical value, the performing laboratory technologist must notify the ordering provider, or a covering provider if the ordering provider is unavailable, by direct verbal communication, either in person or by telephone, within 30 minutes of result verification. Notification by electronic health record alert alone is not sufficient for critical values, given the risk that an alert may not be reviewed promptly amid competing clinical demands. The notification must include a documented read-back of the value by the receiving clinician to confirm accurate transmission, a practice adapted from broader clinical communication safety standards to reduce transcription and mishearing errors.
+
+If the ordering or covering provider cannot be reached within 30 minutes, the laboratory technologist must escalate to the charge nurse of the patient's unit, who assumes responsibility for locating a clinician able to act on the result. If the patient is an outpatient and no covering provider can be reached within a defined institutional timeframe, generally one hour, the laboratory must escalate to the on-call physician for the ordering department or, if the value indicates immediate danger to life, direct the patient or a delegate to seek emergency care.
+
+DOCUMENTATION REQUIREMENTS
+
+Every critical value notification must be documented in the electronic health record, including the value itself, the time of result verification, the time of notification, the method of notification, the name of the individual notified, and confirmation of read-back. This documentation is reviewed as part of routine laboratory quality assurance and is auditable in the event of an adverse outcome investigation.
+
+ESCALATION FOR REPEATED OR TRENDING ABNORMALITIES
+
+Beyond single critical values, this protocol also addresses trending patterns that may not individually meet critical thresholds but represent a concerning trajectory. A rising creatinine representing a 0.3 mg/dL or greater increase within 48 hours, meeting formal criteria for acute kidney injury, must be flagged for provider review even if the absolute value does not meet a critical threshold, given the well-established prognostic significance of acute kidney injury for subsequent morbidity. Similarly, a hemoglobin decline of 2 g/dL or more within 24 hours, even if the resulting absolute value is not itself critical, should trigger a clinical review for occult bleeding.
+
+ROLE OF CLINICAL DECISION SUPPORT
+
+The electronic health record's clinical decision support system is configured to flag critical and significantly abnormal values with visually distinct alerts on the results review screen, and to prevent inadvertent dismissal of critical value alerts without an acknowledgment click that is separately logged. Decision support rules are reviewed periodically to minimize alert fatigue, since an excessive rate of low-value alerts has been shown to reduce clinician responsiveness to alerts generally, including those that matter most.
+
+QUALITY MONITORING
+
+Compliance with the 30-minute critical value notification window is monitored monthly by the laboratory quality committee, with outlier cases reviewed to identify systemic barriers such as inaccurate contact information, unclear on-call coverage, or technologist workflow bottlenecks. A target compliance rate of 95% notification within the required window is maintained as an institutional quality benchmark, with corrective action plans initiated for any month falling below this threshold.

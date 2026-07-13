@@ -1,0 +1,37 @@
+Inpatient Blood Glucose Monitoring Policy — Institutional Policy
+
+PURPOSE
+
+This policy establishes standardized blood glucose monitoring and management practices for hospitalized patients with diabetes or stress hyperglycemia, reflecting evidence that both hyperglycemia and hypoglycemia during hospitalization are independently associated with adverse outcomes, including increased infection risk, longer length of stay, and increased mortality in critically ill populations.
+
+GLYCEMIC TARGETS FOR HOSPITALIZED PATIENTS
+
+For most non-critically ill hospitalized patients, the target blood glucose range is 140 to 180 mg/dL. Targets more stringent than this range are generally not recommended for routine inpatient management, given trial evidence that intensive glucose control in hospitalized patients, particularly in critical care settings, has been associated with increased hypoglycemia risk without clear mortality benefit compared to a moderate target range. For critically ill patients specifically, a target range of 140 to 180 mg/dL is similarly recommended as the standard approach, representing a shift from historically more aggressive targets used in some critical care protocols.
+
+For patients with limited life expectancy, significant comorbidity burden, or at the end of life, a less stringent target focused primarily on avoiding symptomatic hyperglycemia and hypoglycemia, generally below 200 mg/dL without a strict lower bound, is appropriate, prioritizing patient comfort over tight numeric control.
+
+MONITORING FREQUENCY
+
+Point-of-care blood glucose monitoring frequency is determined by nutritional status and treatment regimen. Patients receiving scheduled subcutaneous insulin with oral nutrition are monitored before each meal and at bedtime. Patients who are NPO or receiving continuous enteral or parenteral nutrition are monitored every 4 to 6 hours. Patients on an intravenous insulin infusion, typically in the critical care setting, are monitored hourly until stable within target range, then may transition to monitoring every 2 hours per institutional intravenous insulin protocol.
+
+INSULIN ORDERING AND ADMINISTRATION
+
+Scheduled subcutaneous insulin regimens for non-critically ill patients with diabetes should include basal insulin, nutritional or prandial insulin matched to carbohydrate intake, and correctional insulin for blood glucose values above target. Reliance on correctional insulin alone, without scheduled basal and nutritional components, is discouraged as a sole strategy for glycemic management in patients with known diabetes, given evidence that this reactive approach alone results in poorer glycemic control compared to a proactive basal-bolus regimen. Insulin orders must specify the correction scale being used, and correction doses must be reassessed and adjusted based on patient response rather than left static throughout the admission regardless of glycemic trend.
+
+For patients on continuous enteral nutrition, insulin timing should align with feeding schedule, and any interruption in enteral feeding, whether planned for a procedure or unplanned due to intolerance, requires corresponding adjustment of scheduled insulin to prevent hypoglycemia.
+
+HYPOGLYCEMIA MANAGEMENT
+
+Hypoglycemia, defined as blood glucose below 70 mg/dL, triggers an automatic institutional hypoglycemia treatment protocol without requiring a new physician order. For a conscious patient able to swallow safely, treatment consists of 15 to 20 grams of fast-acting oral carbohydrate, with blood glucose rechecked in 15 minutes and treatment repeated if still below 70 mg/dL. For a patient unable to safely take oral carbohydrate, intravenous dextrose or intramuscular glucagon is administered per protocol, with physician notification required for any blood glucose value below 54 mg/dL, representing clinically significant hypoglycemia, and required nursing assessment for any contributing cause, such as a missed meal following insulin administration or medication timing error.
+
+TRANSITION FROM INTRAVENOUS TO SUBCUTANEOUS INSULIN
+
+Patients transitioning from an intravenous insulin infusion to a subcutaneous regimen require overlap of subcutaneous basal insulin administration with the infusion, generally 2 hours prior to infusion discontinuation, to prevent a treatment gap that can result in rebound hyperglycemia or diabetic ketoacidosis. The subcutaneous regimen should be calculated based on the total daily insulin requirement demonstrated by the infusion over the preceding 6 to 8 hours of stable dosing, rather than an arbitrary starting dose, to ensure an appropriately individualized transition.
+
+DISCHARGE PLANNING FOR DIABETES MANAGEMENT
+
+Patients with new diabetes diagnoses, or significant changes to their diabetes regimen during hospitalization, require diabetes self-management education prior to discharge, covering glucose monitoring technique, insulin administration technique if applicable, hypoglycemia recognition and treatment, and sick-day management guidance. A discharge glycemic management plan must be documented, including target A1c, follow-up plan with an outpatient provider for ongoing diabetes management, and explicit reconciliation of any inpatient medication changes with the patient's pre-admission regimen.
+
+QUALITY MONITORING
+
+Rates of inpatient hypoglycemia and severe hyperglycemia are tracked as institutional quality metrics, with monthly reporting to nursing and medical leadership. Any episode of severe hypoglycemia, defined as blood glucose below 40 mg/dL, undergoes case-level review to identify contributing factors such as insulin timing relative to nutritional intake, dosing errors, or inadequate monitoring frequency.

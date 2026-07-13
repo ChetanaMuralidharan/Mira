@@ -1,0 +1,29 @@
+Hospital Readmission Reduction Policy — Institutional Policy
+
+PURPOSE AND SCOPE
+
+This institutional policy establishes the internal framework for identifying, monitoring, and reducing preventable hospital readmissions, in alignment with external quality reporting requirements and reflecting the institution's own commitment to care continuity. This policy applies to all inpatient admissions across medical and surgical services, with particular emphasis on the condition categories associated with the highest readmission risk and the greatest opportunity for intervention: heart failure, chronic obstructive pulmonary disease, pneumonia, and acute myocardial infarction.
+
+RISK STRATIFICATION AT ADMISSION
+
+All patients are risk-stratified for readmission risk within 24 hours of admission using a combination of automated electronic health record risk scoring and clinical judgment. Automated risk factors incorporated into the institutional risk score include: number of hospitalizations in the preceding 12 months, number of active chronic conditions, number of scheduled home medications, age, presence of a documented primary care provider relationship, and prior discharge against medical advice. Patients scoring in the high-risk tier are flagged for enhanced discharge planning resources, including mandatory case management involvement and consideration for post-discharge transitional care program enrollment.
+
+CASE MANAGEMENT AND SOCIAL WORK INVOLVEMENT
+
+High-risk patients, and any patient identified with a psychosocial barrier to safe discharge such as unstable housing, lack of caregiver support, or limited health literacy, require case management or social work evaluation prior to discharge. This evaluation assesses the adequacy of the planned discharge disposition, identifies needed community resources, and coordinates referrals for home health, durable medical equipment, or post-acute facility placement as clinically indicated. Discharge disposition decisions for high-risk patients should not rest solely with the medical team but should incorporate case management assessment of home safety and support adequacy.
+
+TRANSITIONAL CARE PROGRAM ENROLLMENT
+
+The institution maintains a transitional care program for patients admitted with heart failure, COPD exacerbation, or recent myocardial infarction who meet high-risk criteria. Enrolled patients receive a structured telephone follow-up call within 48 to 72 hours of discharge conducted by a transitional care nurse, focusing on medication adherence, symptom monitoring, and confirmation of scheduled follow-up appointment attendance plans. Patients reporting concerning symptoms during this call are triaged to same-day provider contact rather than waiting for their scheduled follow-up visit. Enrolled patients also receive a follow-up home visit within 7 days of discharge when case management assessment identifies elevated risk of early clinical deterioration or non-adherence.
+
+READMISSION REVIEW PROCESS
+
+Every readmission occurring within 30 days of a prior discharge from this institution undergoes a structured review to determine whether the readmission was potentially preventable and, if so, to identify contributing factors. The review considers whether discharge criteria were appropriately met at the index admission, whether medication reconciliation was completed without unresolved discrepancies, whether follow-up appointments were scheduled and occurred as planned, and whether the patient or caregiver demonstrated adequate understanding of discharge instructions via documented teach-back. Findings from readmission reviews are aggregated monthly and reported to the readmission reduction quality committee to identify systemic patterns warranting broader process changes, distinct from isolated case-level issues.
+
+PHARMACY AND MEDICATION ACCESS SUPPORT
+
+Recognizing medication non-adherence due to cost or access barriers as a significant contributor to readmission, the institution maintains a discharge pharmacy meds-to-beds program for high-risk patients, in which discharge prescriptions are filled and delivered to the patient's bedside prior to physical discharge, removing the barrier of a post-discharge pharmacy visit. Patients identified with cost-related adherence barriers are referred to institutional financial counseling and connected with manufacturer patient assistance programs where applicable for high-cost maintenance medications.
+
+MONITORING AND REPORTING
+
+Institutional 30-day, all-cause, and condition-specific readmission rates are tracked monthly and reported to hospital leadership and relevant clinical department chairs, benchmarked against both internal historical performance and available external comparison data. Departments with readmission rates exceeding internal targets are required to develop and report on a corrective action plan, which may include enhanced discharge planning staffing, revised risk stratification thresholds, or targeted transitional care program expansion for the specific condition population driving elevated rates.

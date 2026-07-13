@@ -1,0 +1,164 @@
+version: 2
+
+models:
+  - name: stg_patients
+    description: >
+      Cleaned and standardized patient records from Synthea.
+      One row per patient. Contains demographic information,
+      vital status, and computed age fields.
+    columns:
+      - name: patient_id
+        description: Unique patient identifier (UUID)
+        tests:
+          - not_null
+          - unique
+      - name: birth_date
+        description: Patient date of birth
+        tests:
+          - not_null
+      - name: death_date
+        description: Date of death. NULL if patient is still alive.
+      - name: gender
+        description: Patient gender. M for male, F for female.
+        tests:
+          - not_null
+          - accepted_values:
+              values: ['M', 'F']
+      - name: is_deceased
+        description: True if the patient has a recorded death date, false if alive.
+        tests:
+          - not_null
+      - name: age_at_generation
+        description: >
+          Patient age in years, computed as years between birth_date
+          and death_date (if deceased) or current date (if alive).
+      - name: age_bucket
+        description: >
+          Categorical age group. Values: 0-17, 18-44, 45-64, 65+.
+        tests:
+          - accepted_values:
+              values: ['0-17', '18-44', '45-64', '65+']
+
+  - name: stg_encounters
+    description: >
+      Cleaned encounter records. One row per encounter.
+      Contains visit type, timing, and cost.
+    columns:
+      - name: encounter_id
+        description: Unique encounter identifier (UUID)
+        tests:
+          - not_null
+          - unique
+      - name: patient_id
+        description: Foreign key to stg_patients.patient_id
+        tests:
+          - not_null
+          - relationships:
+              to: ref('stg_patients')
+              field: patient_id
+              config:
+                severity: warn
+      - name: encounter_class
+        description: >
+          Type of clinical encounter. One of: ambulatory, emergency,
+          inpatient, wellness, urgentcare, outpatient.
+        tests:
+          - not_null
+          - accepted_values:
+              values: ['ambulatory', 'emergency', 'inpatient',
+                       'wellness', 'urgentcare', 'outpatient',
+                       'hospice', 'snf', 'home', 'virtual']
+
+  - name: stg_conditions
+    description: >
+      Cleaned condition records from Synthea, coded in SNOMED-CT.
+      One row per patient-condition instance.
+      resolution_date is NULL for ongoing chronic conditions.
+      Use is_active = true to find current diagnoses.
+    columns:
+      - name: patient_id
+        description: Foreign key to stg_patients.patient_id
+        tests:
+          - not_null
+
+      - name: condition_system
+        description: Coding system for the condition. In this Synthea export, this is SNOMED-CT.
+        tests:
+          - not_null
+
+      - name: condition_code
+        description: SNOMED-CT condition code.
+        tests:
+          - not_null
+
+      - name: condition_description
+        description: Human-readable SNOMED-CT condition description.
+
+      - name: is_active
+        description: >
+          True if this condition is currently ongoing (resolution_date IS NULL).
+          False if the condition has been resolved.
+        tests:
+          - not_null
+
+  - name: stg_observations
+    description: >
+      Cleaned clinical observations including lab results, vital signs,
+      and social history. One row per observation.
+      value_numeric holds numeric results, value_text holds categorical ones.
+    columns:
+      - name: patient_id
+        description: Foreign key to stg_patients.patient_id
+        tests:
+          - not_null
+      - name: loinc_code
+        description: LOINC code identifying the type of observation
+        tests:
+          - not_null
+      - name: value_numeric
+        description: >
+          Numeric value for quantitative observations (labs, vitals).
+          NULL for categorical observations.
+      - name: value_text
+        description: >
+          Text value for categorical observations (blood type, smoking status).
+          NULL for numeric observations.
+      - name: observation_category
+        description: >
+          Broad category: laboratory, vital-signs, or social-history.
+
+  - name: stg_medications
+    description: >
+      Cleaned medication records coded in RxNorm.
+      One row per medication prescription episode.
+      stop_date is NULL for currently active medications.
+    columns:
+      - name: patient_id
+        description: Foreign key to stg_patients.patient_id
+        tests:
+          - not_null
+      - name: medication_name
+        description: Human-readable medication name from RxNorm
+        tests:
+          - not_null
+      - name: is_active
+        description: >
+          True if this medication is currently prescribed (stop_date IS NULL).
+        tests:
+          - not_null
+
+seeds:
+  - name: condition_concept_map
+    columns:
+      - name: condition_group
+        tests:
+          - not_null
+          - accepted_values:
+              arguments:
+                values: ['diabetes', 'prediabetes', 'hypertension', 'copd', 'heart_failure', 'ckd', 'asthma']
+      - name: condition_system
+        tests:
+          - not_null
+      - name: condition_code
+        tests:
+          - not_null

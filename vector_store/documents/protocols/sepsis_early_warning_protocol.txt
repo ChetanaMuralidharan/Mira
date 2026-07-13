@@ -1,0 +1,33 @@
+Sepsis Early Warning and Response Protocol — Institutional Policy
+
+PURPOSE
+
+This protocol establishes standardized screening, escalation, and initial management steps for early identification of sepsis, given strong evidence that time to treatment initiation is directly associated with mortality outcomes in this condition. Early recognition depends on systematic screening rather than reliance on individual clinician suspicion alone, since early sepsis presentation can be subtle and easily attributed to other causes.
+
+SCREENING CRITERIA
+
+All patients are screened for sepsis risk using a combination of systemic inflammatory response criteria and organ dysfunction indicators at defined intervals: every 4 hours on general medical-surgical units, and continuously via automated electronic health record monitoring where available. Screening triggers include two or more of the following: temperature above 38.3°C or below 36°C, heart rate above 90 beats per minute, respiratory rate above 20 breaths per minute, and white blood cell count above 12,000 or below 4,000 cells per microliter, in a patient with a known or suspected infection source. Additional organ dysfunction indicators that increase concern include altered mental status from baseline, systolic blood pressure below 100 mmHg, lactate above 2 mmol/L, creatinine increase suggesting new kidney injury, and new need for supplemental oxygen.
+
+Patients meeting screening criteria trigger an automated best practice alert in the electronic health record directed to the bedside nurse and covering provider, prompting immediate clinical assessment rather than passive documentation of the screening result.
+
+INITIAL RESPONSE BUNDLE
+
+Upon confirmation of suspected sepsis by clinical assessment, the following bundle of interventions should be initiated within one hour of recognition, based on evidence that delayed bundle completion is associated with increased mortality risk in a roughly dose-dependent relationship with delay duration. The bundle includes: measurement of serum lactate, with repeat measurement if the initial value is elevated above 2 mmol/L; obtaining blood cultures from two separate sites prior to antibiotic administration, provided this does not meaningfully delay antibiotic timing; administration of broad-spectrum antibiotics selected based on suspected infection source and local antibiotic resistance patterns; and initiation of intravenous crystalloid fluid resuscitation, generally 30 mL/kg, for patients with hypotension or lactate at or above 4 mmol/L, with reassessment of fluid responsiveness before additional fluid administration.
+
+For patients who remain hypotensive despite initial fluid resuscitation, vasopressor therapy should be initiated to maintain a mean arterial pressure of at least 65 mmHg, with norepinephrine generally preferred as the first-line agent based on the balance of efficacy and adverse effect profile compared to alternative vasopressors.
+
+SOURCE CONTROL
+
+Identification and control of the infection source is a critical component of sepsis management that runs in parallel with the resuscitation bundle. This may include drainage of an abscess, removal of an infected indwelling device such as a central venous catheter, or surgical debridement of infected tissue. Source control should occur as soon as logistically feasible after hemodynamic stabilization, since delayed source control is independently associated with worse outcomes even when antibiotics and resuscitation are otherwise appropriately managed.
+
+REASSESSMENT AND ESCALATION OF CARE
+
+Patients treated for suspected sepsis require reassessment of hemodynamic status, mental status, and repeat lactate measurement within 3 to 6 hours of initial treatment to confirm response to therapy. Patients who do not demonstrate improvement, or who require escalating vasopressor support or mechanical ventilation, should be escalated to a higher level of care, typically an intensive care unit, for closer monitoring and more advanced hemodynamic support capability. A persistently elevated or rising lactate despite initial resuscitation is a particularly concerning prognostic sign warranting prompt escalation and consideration of additional or alternative source control measures.
+
+DOCUMENTATION AND QUALITY REPORTING
+
+Every suspected sepsis case triggering the response bundle must be documented with timestamps for screening trigger, clinical recognition, blood culture collection, antibiotic administration, and initial lactate measurement, since these specific timestamps form the basis for institutional quality reporting to external sepsis quality measure programs. Time from recognition to antibiotic administration is tracked as a key institutional quality metric, with a target of antibiotic administration within one hour of recognition for at least 90% of qualifying cases, and cases outside this target reviewed individually to identify workflow barriers.
+
+STAFF EDUCATION
+
+All clinical staff, including nursing, physician, and advanced practice provider staff, receive sepsis recognition training at hospital orientation and annually thereafter, given the ongoing evidence that staff education initiatives measurably improve bundle compliance rates and reduce time to treatment when reinforced on a recurring rather than one-time basis.

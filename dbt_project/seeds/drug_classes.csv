@@ -1,0 +1,24 @@
+medication_name_pattern,drug_class,notes
+Metformin,antidiabetic,First-line T2DM medication
+Insulin,antidiabetic,Used in T1DM and advanced T2DM
+Glipizide,antidiabetic,Sulfonylurea class
+Lisinopril,antihypertensive,ACE inhibitor
+Amlodipine,antihypertensive,Calcium channel blocker
+Atenolol,antihypertensive,Beta blocker
+Atorvastatin,statin,HMG-CoA reductase inhibitor
+Simvastatin,statin,HMG-CoA reductase inhibitor
+Warfarin,anticoagulant,Vitamin K antagonist
+Aspirin,antiplatelet,COX inhibitor
+Albuterol,bronchodilator,Short-acting beta agonist
+Fluticasone,corticosteroid,Inhaled corticosteroid
+Sertraline,antidepressant,SSRI
+Amoxicillin,antibiotic,Penicillin-class
+Losartan,antihypertensive,ARB
+Hydrochlorothiazide,antihypertensive,Thiazide diuretic
+Valsartan,antihypertensive,ARB
+Benazepril,antihypertensive,ACE inhibitor
+Olmesartan,antihypertensive,ARB
+Bisoprolol,antihypertensive,Beta blocker
+Clopidogrel,antiplatelet,P2Y12 inhibitor
+Prednisone,corticosteroid,Systemic corticosteroid
+Salmeterol,bronchodilator,Long-acting beta agonist

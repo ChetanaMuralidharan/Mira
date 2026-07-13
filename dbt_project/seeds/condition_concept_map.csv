@@ -1,0 +1,22 @@
+condition_group,condition_system,condition_code,condition_description
+diabetes,SNOMED-CT,44054006,Diabetes mellitus type 2
+diabetes,SNOMED-CT,127013003,Disorder of kidney due to diabetes mellitus
+diabetes,SNOMED-CT,90781000119102,Microalbuminuria due to type 2 diabetes mellitus
+diabetes,SNOMED-CT,157141000119108,Proteinuria due to type 2 diabetes mellitus
+diabetes,SNOMED-CT,368581000119106,Neuropathy due to type 2 diabetes mellitus
+diabetes,SNOMED-CT,1551000119108,Nonproliferative diabetic retinopathy due to type II diabetes mellitus
+diabetes,SNOMED-CT,97331000119101,Macular edema and retinopathy due to type 2 diabetes mellitus
+diabetes,SNOMED-CT,1501000119109,Proliferative diabetic retinopathy due to type II diabetes mellitus
+diabetes,SNOMED-CT,60951000119105,Blindness due to type 2 diabetes mellitus
+prediabetes,SNOMED-CT,714628002,Prediabetes
+hypertension,SNOMED-CT,59621000,Essential hypertension
+copd,SNOMED-CT,185086009,Chronic obstructive bronchitis
+heart_failure,SNOMED-CT,88805009,Chronic congestive heart failure
+heart_failure,SNOMED-CT,84114007,Heart failure
+ckd,SNOMED-CT,431855005,Chronic kidney disease stage 1
+ckd,SNOMED-CT,431856006,Chronic kidney disease stage 2
+ckd,SNOMED-CT,433144002,Chronic kidney disease stage 3
+ckd,SNOMED-CT,431857002,Chronic kidney disease stage 4
+ckd,SNOMED-CT,127013003,Disorder of kidney due to diabetes mellitus
+asthma,SNOMED-CT,195967001,Asthma
+asthma,SNOMED-CT,233678006,Childhood asthma

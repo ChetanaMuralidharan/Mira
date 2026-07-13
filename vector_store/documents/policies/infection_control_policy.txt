@@ -1,0 +1,33 @@
+Infection Control Policy — Institutional Policy
+
+PURPOSE AND SCOPE
+
+This policy establishes standard infection prevention practices applicable across all inpatient units, ambulatory clinics, and procedural areas, with the goal of minimizing healthcare-associated infection transmission between patients, staff, and visitors. Healthcare-associated infections remain a leading preventable cause of patient harm, extended length of stay, and excess healthcare cost, and adherence to standardized infection control practice is one of the most evidence-supported interventions available for reducing this burden.
+
+STANDARD PRECAUTIONS
+
+Standard precautions apply to the care of all patients regardless of known or suspected infection status, reflecting the principle that infectious status cannot always be known at the time of care delivery. Standard precautions include hand hygiene before and after all patient contact, use of gloves when contact with blood, body fluids, or non-intact skin is anticipated, use of gown and eye protection when splash or spray of body fluids is anticipated, safe injection practices including single use of needles and syringes, and safe handling and disposal of sharps in designated puncture-resistant containers.
+
+HAND HYGIENE
+
+Hand hygiene is performed using alcohol-based hand sanitizer for routine patient contact, except when hands are visibly soiled or after caring for a patient with a known or suspected spore-forming organism such as Clostridioides difficile, in which case soap and water must be used, since alcohol-based sanitizers are not effective against spores. Hand hygiene must be performed at five defined moments: before touching a patient, before a clean or aseptic procedure, after exposure to body fluid, after touching a patient, and after touching a patient's immediate surroundings. Hand hygiene compliance is monitored through direct observation audits performed by trained observers across all units on a rotating schedule, with compliance rates reported monthly to unit leadership and aggregated institutionally, with a target compliance rate of 90% or greater.
+
+TRANSMISSION-BASED PRECAUTIONS
+
+In addition to standard precautions, transmission-based precautions are applied for patients with known or suspected infections transmitted by specific routes. Contact precautions, involving gown and gloves for all patient room entry, apply to conditions including Clostridioides difficile infection, multidrug-resistant organism colonization or infection, and uncontrolled wound drainage. Droplet precautions, involving a surgical mask for entry within 3 to 6 feet of the patient, apply to conditions transmitted via respiratory droplets including influenza and pertussis. Airborne precautions, requiring a fit-tested N95 respirator or higher level of respiratory protection and care in a negative-pressure isolation room, apply to conditions including tuberculosis, measles, and varicella. Signage indicating the required precaution type must be posted at the entrance to the patient's room, and required personal protective equipment must be available immediately outside the room.
+
+MULTIDRUG-RESISTANT ORGANISM MANAGEMENT
+
+Patients with a known history of colonization or infection with a multidrug-resistant organism, including methicillin-resistant Staphylococcus aureus, vancomycin-resistant Enterococcus, or carbapenem-resistant Enterobacteriaceae, are placed on contact precautions for the duration of admission, and this status is flagged in the electronic health record to ensure precautions are reinstituted automatically on any subsequent admission. Institutional antibiograms, summarizing local antimicrobial susceptibility patterns, are updated annually and made available to prescribers to guide empiric antibiotic selection pending culture results, since local resistance patterns can differ meaningfully from national or textbook data.
+
+CENTRAL LINE AND CATHETER-ASSOCIATED INFECTION PREVENTION
+
+Central line insertion must follow a standardized insertion bundle including maximal sterile barrier precautions, chlorhexidine skin antisepsis, and optimal catheter site selection avoiding the femoral site when feasible. Central line necessity is reassessed daily on rounds, with prompt removal once the line is no longer clinically necessary, given the well-established relationship between line dwell time and infection risk. Similarly, indwelling urinary catheter necessity is reassessed daily, with catheters removed as soon as clinically appropriate, since catheter-associated urinary tract infection risk increases substantially with each additional day of catheterization.
+
+ANTIMICROBIAL STEWARDSHIP
+
+The institutional antimicrobial stewardship program reviews antibiotic utilization to promote appropriate selection, dosing, and duration of therapy. Prospective audit and feedback is conducted for antibiotics with restricted status, requiring stewardship team approval for continuation beyond 72 hours, and automatic stop orders are configured for common antibiotic courses to prevent unintentional prolongation beyond the clinically indicated duration. Culture and susceptibility results should be reviewed within 24 to 48 hours of availability to de-escalate empiric broad-spectrum therapy to the narrowest effective agent whenever culture data allow.
+
+OUTBREAK IDENTIFICATION AND RESPONSE
+
+Infection prevention staff conduct ongoing surveillance for clusters of healthcare-associated infection that may indicate an outbreak or common source transmission event. Any identified cluster triggers a formal investigation including case definition, line listing of affected patients, and environmental or process review to identify a common source, with implementation of additional control measures as indicated by investigation findings, up to and including unit closure to new admissions in severe cases.

@@ -1,0 +1,39 @@
+Inpatient Pain Management Policy — Institutional Policy
+
+PURPOSE
+
+This policy establishes standardized pain assessment and management practices for hospitalized patients, balancing the goal of effective pain control against the imperative to minimize risks associated with opioid analgesia, including respiratory depression, oversedation, and the contribution of inpatient opioid exposure to longer-term dependence risk.
+
+PAIN ASSESSMENT
+
+Pain is assessed using a standardized numeric or behavioral rating scale appropriate to the patient's communication ability, with numeric rating scales used for patients able to self-report and behavioral pain scales, incorporating facial expression, body movement, and vocalization, used for patients with cognitive impairment or communication barriers preventing reliable self-report. Pain is assessed at regular intervals, generally every 4 hours for patients with active pain complaints, and reassessed within a defined interval following any analgesic intervention, typically 30 to 60 minutes for parenteral medications and 60 to 90 minutes for oral medications, to confirm adequacy of response and screen for adverse effects before further dosing decisions are made.
+
+MULTIMODAL ANALGESIA
+
+A multimodal approach to pain management is preferred over reliance on opioid monotherapy, given evidence that combining agents with different mechanisms of action provides superior analgesia with lower total opioid requirement compared to opioid-only regimens. Multimodal components include scheduled acetaminophen unless contraindicated by hepatic impairment, NSAIDs when not contraindicated by renal function, gastrointestinal bleeding risk, or cardiovascular disease, and adjunctive agents such as gabapentinoids for neuropathic pain components or muscle relaxants for musculoskeletal pain, selected based on the specific pain mechanism involved rather than a uniform regimen applied regardless of pain type. Non-pharmacologic interventions, including positioning, ice or heat application, and relaxation techniques, should be incorporated as adjuncts where clinically appropriate.
+
+OPIOID PRESCRIBING PRINCIPLES
+
+When opioid analgesia is clinically indicated, the lowest effective dose should be selected, with dose escalation guided by ongoing reassessment of both analgesic response and adverse effects rather than fixed dose-escalation schedules. Short-acting opioids are preferred over long-acting or extended-release formulations for acute inpatient pain management, given the ability to titrate more precisely and respond more quickly to changing pain levels or adverse effects. Extended-release or long-acting opioid formulations should generally be reserved for patients with chronic pain conditions already established on such regimens prior to admission, rather than newly initiated during an acute hospitalization.
+
+Concurrent use of opioids with other sedating medications, particularly benzodiazepines, should be avoided whenever possible given the substantially increased risk of respiratory depression with combined use, and any such combination that is clinically necessary requires documented justification and enhanced monitoring.
+
+SEDATION AND RESPIRATORY MONITORING
+
+All patients receiving opioid analgesia must have sedation level assessed using a standardized sedation scale at the same intervals as pain reassessment, since oversedation is a more sensitive early warning sign of impending respiratory depression than respiratory rate alone, which can remain deceptively normal until relatively late in the progression toward clinically significant respiratory compromise. Patients with risk factors for opioid-induced respiratory depression, including obstructive sleep apnea, obesity, concurrent sedating medication use, opioid-naive status, and advanced age, require enhanced monitoring, which may include continuous pulse oximetry or capnography depending on risk level and institutional resources. Any patient demonstrating increased sedation level must have subsequent opioid doses held pending clinical reassessment, regardless of reported pain score, since sedation takes precedence over pain control in this circumstance given the safety implications.
+
+MANAGEMENT OF OPIOID-TOLERANT PATIENTS
+
+Patients with pre-existing opioid tolerance due to chronic pain conditions or opioid use disorder require individualized dosing strategies accounting for baseline tolerance, since standard opioid-naive dosing will likely be inadequate for analgesia in this population. Home opioid regimens should be verified through prescription monitoring program review and, where feasible, contact with the patient's outpatient prescriber, and continuation of an appropriately verified home regimen alongside additional as-needed dosing for the acute pain indication is generally preferable to abrupt discontinuation, which risks both inadequate analgesia and precipitated withdrawal.
+
+PATIENTS WITH OPIOID USE DISORDER
+
+Patients with a history of opioid use disorder, including those maintained on buprenorphine or methadone, require coordination with addiction medicine or the outpatient treatment program to confirm maintenance dosing and avoid inadvertent withdrawal or disruption of treatment during hospitalization. Untreated acute pain in this population should not be assumed to be adequately managed by maintenance therapy alone, since maintenance dosing for opioid use disorder treatment is not typically sufficient for acute pain control, and additional short-acting analgesia should be used as clinically indicated following the same multimodal principles applied to other patients.
+
+DISCHARGE OPIOID PRESCRIBING
+
+Opioid prescriptions at discharge should be limited to the quantity clinically anticipated to be necessary based on the specific procedure or condition, following institutional guidance on recommended discharge quantities by procedure type, rather than a default quantity applied uniformly. Patients receiving a new discharge opioid prescription must receive documented education on safe storage, signs of overdose, the availability of naloxone for higher-risk prescriptions, and safe disposal of unused medication, given the well-established relationship between leftover prescription opioids and downstream diversion or misuse risk.
+
+QUALITY MONITORING
+
+Rates of naloxone administration for opioid-related oversedation are tracked as an institutional quality and safety metric, with case-level review of any event to identify contributing factors such as inadequate risk stratification, insufficient monitoring frequency, or concurrent sedating medication use that may warrant practice adjustment.

@@ -1,0 +1,9 @@
+loinc_code,description,normal_low,normal_high,unit,notes
+4548-4,Hemoglobin A1c,,5.7,%,Above 5.7 is prediabetic; above 6.5 is diabetic
+2339-0,Glucose [Mass/volume] in Blood,,100,mg/dL,Above 100 is elevated; above 126 may indicate diabetes depending on clinical context
+8480-6,Systolic blood pressure,90,130,mmHg,Above 130 is stage 1 hypertension
+8462-4,Diastolic blood pressure,60,80,mmHg,Above 80 is stage 1 hypertension
+39156-5,Body mass index,18.5,24.9,kg/m2,Below 18.5 underweight; above 25 overweight
+2093-3,Total cholesterol,,200,mg/dL,Above 200 borderline high
+2085-9,HDL cholesterol,40,,mg/dL,Below 40 is low (men); below 50 is low (women)
+18262-6,LDL cholesterol,,100,mg/dL,Above 100 elevated for high-risk patients

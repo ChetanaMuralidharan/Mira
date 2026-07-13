@@ -1,0 +1,37 @@
+name: 'cliniq_dbt'
+version: '1.0.0'
+config-version: 2
+
+profile: 'cliniq_dbt'
+
+model-paths: ["models"]
+seed-paths: ["seeds"]
+test-paths: ["tests"]
+docs-paths: ["docs"]
+
+target-path: "target"
+clean-targets:
+  - "target"
+  - "dbt_packages"
+
+models:
+  cliniq_dbt:
+    staging:
+      +materialized: view
+      +schema: staging
+    marts:
+      +materialized: table
+      +schema: marts
+    metrics:
+      +materialized: table
+      +schema: metrics
+
+seeds:
+  cliniq_dbt:
+    +schema: seeds
+    condition_concept_map:
+      +column_types:
+        condition_group: varchar
+        condition_system: varchar
+        condition_code: varchar
+        condition_description: varchar

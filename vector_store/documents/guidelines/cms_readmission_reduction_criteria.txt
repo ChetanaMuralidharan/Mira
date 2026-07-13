@@ -1,0 +1,29 @@
+CMS Hospital Readmission Reduction Program — Policy Summary
+
+PROGRAM OVERVIEW
+
+The Hospital Readmission Reduction Program ties a portion of hospital reimbursement to risk-adjusted 30-day readmission rates for a defined set of conditions. Hospitals with higher than expected readmission rates for these conditions receive reduced reimbursement across all Medicare fee-for-service admissions in the following fiscal year, creating a direct financial incentive for health systems to invest in readmission reduction infrastructure, discharge planning quality, and post-acute care coordination.
+
+CONDITIONS INCLUDED IN THE PROGRAM
+
+The tracked conditions include acute myocardial infarction, heart failure, pneumonia, chronic obstructive pulmonary disease, elective total hip and total knee arthroplasty, and coronary artery bypass graft surgery. Each condition has a specific readmission measure defined by a clinical algorithm specifying which diagnosis codes qualify as an index admission, which subsequent admissions within 30 days count as a readmission, and which planned readmissions are excluded from the calculation, since a planned readmission for a staged procedure should not be penalized as a quality failure.
+
+RISK ADJUSTMENT METHODOLOGY
+
+Readmission rates are risk-adjusted for patient case mix, including age, sex, and comorbid conditions present at the time of the index admission, so that hospitals serving sicker or more medically complex populations are not unfairly penalized relative to hospitals serving healthier populations. The risk-adjustment model produces an expected readmission rate for each hospital based on its specific patient population, which is then compared to the hospital's actual observed readmission rate to calculate an excess readmission ratio. A ratio above 1.0 indicates worse than expected performance and contributes to a reimbursement penalty; a ratio at or below 1.0 indicates performance at or better than expected.
+
+HIGH-RISK PATIENT CHARACTERISTICS
+
+Patient-level factors associated with elevated readmission risk include prior hospitalization within the past 12 months, polypharmacy involving five or more chronic medications, presence of multiple chronic comorbid conditions, cognitive impairment or dementia, lack of a reliable caregiver or social support system, low health literacy, unstable housing or homelessness, and limited access to outpatient follow-up care, whether due to transportation barriers, insurance status, or lack of an established primary care relationship. Patients discharged against medical advice or with incomplete resolution of the acute issue prompting admission also carry substantially elevated readmission risk.
+
+DISCHARGE PLANNING REQUIREMENTS
+
+Effective discharge planning under the program's implicit quality framework includes several core components. Medication reconciliation should be completed and documented prior to discharge, comparing the patient's pre-admission medication list against the discharge medication list and explicitly resolving any discrepancies. Patient education should be delivered using teach-back methodology, in which the patient or caregiver is asked to restate instructions in their own words to confirm understanding, rather than passive delivery of written materials alone. A follow-up appointment with an appropriate outpatient provider should be scheduled prior to discharge, not left to the patient to arrange independently, with an appointment ideally occurring within 7 days for high-risk conditions such as heart failure. A clear, written discharge summary should be transmitted to the receiving outpatient provider in a timely manner, ideally within 24 to 48 hours of discharge, so that outpatient follow-up can be adequately informed.
+
+TRANSITIONAL CARE INTERVENTIONS
+
+Health systems have implemented various transitional care models to reduce readmission risk, with varying levels of evidence support. Structured telephone follow-up within 48 to 72 hours of discharge, conducted by a nurse or care coordinator, allows early identification of decompensation or medication issues before they progress to requiring readmission. Home health referrals for appropriate patients provide in-person assessment and skilled nursing support during the vulnerable post-discharge period. Transitional care programs employing dedicated nurse navigators or community health workers to coordinate care across the inpatient-to-outpatient transition have demonstrated meaningful reductions in readmission in multiple health system studies, particularly for heart failure and COPD populations. Pharmacist-led medication reconciliation programs, in which a pharmacist reviews the discharge medication list specifically for interactions, duplications, and adherence barriers, have also shown benefit, particularly in patients with complex polypharmacy.
+
+EXCLUSIONS AND SPECIAL CIRCUMSTANCES
+
+Certain readmissions are excluded from the calculation regardless of timing, including planned readmissions for staged procedures, admissions for unrelated conditions that are clinically distinct from the index admission diagnosis, and transfers to another acute care hospital, which are counted differently than standard readmissions. Admissions resulting in death during the index stay are excluded from readmission risk entirely, since the patient did not survive to be at risk of readmission. Observation stays, as distinct from formal inpatient admissions, are generally not counted as readmissions under the program's current methodology, which has created some debate about whether this creates an incentive to classify borderline cases as observation status rather than formal readmission.

@@ -1,0 +1,33 @@
+Do Not Resuscitate Order Policy — Institutional Policy
+
+PURPOSE AND SCOPE
+
+This policy establishes the standard process for discussing, documenting, and honoring Do Not Resuscitate orders across all inpatient units, ensuring that patient wishes regarding resuscitation are elicited through appropriate goals-of-care conversation, accurately documented, and reliably communicated across all members of the care team and across any transition of care.
+
+DEFINITIONS
+
+A Do Not Resuscitate order indicates that in the event of cardiac or respiratory arrest, no cardiopulmonary resuscitation, including chest compressions, defibrillation, or advanced airway placement, will be initiated. A DNR order is distinct from and does not imply any limitation on other treatments; patients with a DNR order may still appropriately receive full medical management, surgery, intensive care unit admission, vasopressor support, and other therapies unless additional limitations are separately specified. This distinction must be explicitly clarified with patients and families, since a common misconception equates DNR status with a general withdrawal of care, which can inappropriately deter otherwise indicated treatment or, conversely, cause patients to decline a DNR order out of fear that it will result in undertreatment of reversible conditions.
+
+Allow Natural Death is a related designation used at some institutions to describe the same clinical intent using language that emphasizes the natural dying process rather than the absence of intervention, and may be preferred by some patients and families, though the clinical implications are equivalent to a standard DNR order.
+
+GOALS-OF-CARE DISCUSSIONS
+
+Code status should be addressed as part of a broader goals-of-care discussion rather than presented as an isolated procedural question, since resuscitation preferences are most meaningfully elicited in the context of the patient's overall values, prognosis, and treatment goals. Goals-of-care discussions should be initiated proactively for patients with serious or life-limiting illness, patients admitted to intensive care, patients with a substantial decline in functional status, and any patient for whom the treating team would not be surprised if the patient died within the next 12 months, a threshold commonly used to identify patients for whom advance care planning is particularly relevant.
+
+These discussions should be conducted by a physician or advanced practice provider with appropriate communication skill and, where available, in conjunction with palliative care consultation for complex cases involving conflicting family perspectives, uncertain prognosis, or significant emotional distress. The discussion should explore the patient's understanding of their illness and prognosis, elicit the patient's values and priorities regarding quality of life versus life prolongation, provide a clear medical recommendation when appropriate rather than presenting resuscitation as a value-neutral menu of options, and explicitly address what CPR does and does not accomplish, including realistic survival and functional outcome data relevant to the patient's specific clinical context, since population-level CPR survival statistics differ substantially from portrayals in popular media and from outcomes achievable in patients with advanced illness or multiorgan dysfunction.
+
+DOCUMENTATION REQUIREMENTS
+
+Code status must be documented in a designated, prominent field in the electronic health record, distinct from general progress note text, to ensure immediate visibility to any responding clinician during an emergency. The documentation must specify the date of the discussion, who participated including the patient or authorized decision-maker, a summary of the goals-of-care discussion supporting the decision, and the specific resuscitation preference. Code status must be reaffirmed at defined intervals, including at each hospital admission regardless of prior documented status elsewhere, and following any significant change in clinical condition, since patient preferences and clinical context can evolve and a prior DNR order should not be assumed to persist unquestioned indefinitely without confirmation.
+
+DECISION-MAKING CAPACITY AND SURROGATE DECISION-MAKERS
+
+Code status decisions should be made by the patient directly whenever the patient has decision-making capacity. For patients who lack capacity, the decision should be made by the legally authorized surrogate decision-maker, following the hierarchy established by relevant state law, generally beginning with a court-appointed guardian or healthcare power of attorney if one has been designated, followed by spouse, adult children, parents, and other relatives in an order defined by jurisdiction. Surrogate decision-makers should be guided to make decisions based on substituted judgment, meaning what the patient would have wanted based on previously expressed values and preferences, rather than what the surrogate would personally choose for themselves in the patient's situation.
+
+CONFLICT RESOLUTION
+
+In situations where family members disagree about code status, where a surrogate's decision appears inconsistent with the patient's previously expressed wishes, or where the care team believes a requested resuscitation attempt would be medically inappropriate given the patient's clinical circumstances, palliative care consultation and, where necessary, ethics committee consultation should be requested to facilitate resolution rather than allowing conflict to result in inconsistent or delayed care decisions.
+
+RESCISSION AND MODIFICATION
+
+Patients or authorized surrogates may rescind or modify a DNR order at any time, and any such request must be honored immediately with prompt update of the documented code status. Verbal requests to change code status should be acted upon immediately with formal documentation to follow as soon as practicable, rather than delaying the change in status pending paperwork completion, given the safety implications of a code status that does not accurately reflect current patient wishes.

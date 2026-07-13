@@ -1,0 +1,13 @@
+FROM apache/airflow:2.9.2-python3.11
+
+USER airflow
+
+RUN pip install --no-cache-dir \
+    dbt-core \
+    dbt-duckdb \
+    deltalake \
+    pyarrow \
+    duckdb \
+    pandas
+
+RUN python -c "import duckdb; con = duckdb.connect('/tmp/ext_install.duckdb'); con.execute(\"SET home_directory='/tmp'\"); con.execute('INSTALL delta'); con.close() "

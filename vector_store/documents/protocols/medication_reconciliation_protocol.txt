@@ -1,0 +1,31 @@
+Medication Reconciliation Protocol — Institutional Policy
+
+PURPOSE AND SCOPE
+
+This protocol establishes the standard process for medication reconciliation at all transitions of care, including hospital admission, transfer between units, and discharge. Medication reconciliation is the formal process of creating the most accurate possible list of all medications a patient is taking, including drug name, dosage, frequency, and route, and comparing that list against physician admission, transfer, and discharge orders, with the goal of identifying and resolving any discrepancies. This protocol applies to all inpatient units and is a required component of every admission, internal transfer, and discharge workflow.
+
+DEFINITIONS
+
+A discrepancy is any difference between the patient's pre-admission medication list and current orders that is not explicitly and intentionally justified by clinical documentation. Discrepancies are categorized as intentional, meaning the prescriber deliberately changed, held, or discontinued a medication for a documented clinical reason, or unintentional, meaning the difference appears to result from an error, omission, or communication failure rather than a deliberate clinical decision. Unintentional discrepancies are the primary target of this protocol, since they represent a preventable source of medication error and patient harm.
+
+MEDICATION RECONCILIATION AT ADMISSION
+
+Upon admission, nursing staff or a clinical pharmacist must obtain a best possible medication history within 24 hours, using at least two sources of information where feasible. Acceptable sources include the patient or family interview, the patient's own medication bottles if brought to the hospital, the outpatient pharmacy record accessed through the pharmacy benefit interface, the primary care provider's electronic record if accessible, and any prior discharge summary from a recent hospitalization. The best possible medication history must capture prescription medications, over-the-counter medications, herbal and dietary supplements, and any recently discontinued medications relevant to the current admission.
+
+Once obtained, the best possible medication history is compared against the admission orders by the admitting provider or a clinical pharmacist. Any discrepancy identified must be documented and resolved with the admitting provider before the reconciliation is considered complete. High-risk medications requiring particular attention during this comparison include anticoagulants, insulin and other diabetes medications, opioids, and medications with narrow therapeutic windows such as digoxin, warfarin, and certain anticonvulsants, given the disproportionate severity of harm that can result from errors involving these agents.
+
+MEDICATION RECONCILIATION AT INTERNAL TRANSFER
+
+When a patient transfers between units, particularly transfers involving a change in level of care such as intensive care unit to general medical floor or vice versa, medication orders must be reconciled again at the point of transfer. This is particularly important because medication orders are frequently rewritten during transfer, creating an opportunity for unintentional omission of a chronic medication that was appropriately held during a period of acute illness but should be resumed once the patient stabilizes.
+
+MEDICATION RECONCILIATION AT DISCHARGE
+
+At discharge, the discharge medication list must be compared against both the admission best possible medication history and the most recent inpatient medication administration record. Any medication that was held during the admission must be explicitly addressed: either resumed, with clear documentation of the plan, or discontinued, with clear documentation of the clinical reason. The patient or caregiver must receive a written discharge medication list that clearly distinguishes new medications, changed medications, discontinued medications, and continued medications, since ambiguity in this list is a well-documented source of post-discharge medication error. Where feasible, discharge medication counseling should be delivered using teach-back methodology, in which the patient is asked to describe back the purpose, dose, and timing of new or changed medications to confirm understanding, rather than relying on written materials or verbal instruction alone.
+
+ROLE OF THE CLINICAL PHARMACIST
+
+Clinical pharmacists play a central role in medication reconciliation, particularly for patients identified as high risk based on polypharmacy of five or more chronic medications, use of high-alert medication classes, age 65 or older, or a history of a prior medication-related adverse event. Pharmacist-led reconciliation at both admission and discharge has been associated with meaningfully lower rates of clinically significant medication discrepancies compared to reconciliation performed by nursing or physician staff alone, reflecting the specialized training pharmacists bring to identifying interactions, dosing errors, and therapeutic duplications.
+
+DOCUMENTATION AND QUALITY MONITORING
+
+Every reconciliation event, at every transition point, must be documented in the electronic health record, including the source of the best possible medication history, any discrepancies identified, and their resolution. Compliance with timely reconciliation is monitored monthly as an institutional quality metric, with a target of 95% completion within the required timeframe at each transition point. Cases involving unintentional discrepancies with potential for harm are reviewed through the institutional medication safety committee to identify systemic contributing factors and opportunities for process improvement.

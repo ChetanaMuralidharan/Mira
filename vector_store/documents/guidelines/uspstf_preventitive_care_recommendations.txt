@@ -1,0 +1,35 @@
+USPSTF Preventive Care Recommendations — Clinical Summary
+
+FRAMEWORK FOR RECOMMENDATIONS
+
+The United States Preventive Services Task Force grades preventive service recommendations from A through D, plus an "I" grade for insufficient evidence. Grade A indicates high certainty of substantial net benefit, and the service should be offered. Grade B indicates high certainty of moderate benefit, or moderate certainty of moderate to substantial benefit, and the service should also be offered. Grade C indicates the service should be offered selectively based on individual circumstances, since the net benefit is judged to be small. Grade D indicates moderate or high certainty that the service has no net benefit or that harms outweigh benefits, and it should be discouraged. An I statement indicates the evidence is insufficient to assess the balance of benefits and harms.
+
+CARDIOVASCULAR SCREENING
+
+Screening for hypertension in adults is recommended, with office-based blood pressure measurement confirmed by measurements outside the clinical setting, such as home blood pressure monitoring or ambulatory monitoring, before initiating treatment for suspected hypertension. Statin therapy for primary prevention of cardiovascular disease is recommended for adults aged 40 to 75 who have one or more cardiovascular risk factors, including dyslipidemia, diabetes, hypertension, or smoking, and a calculated 10-year cardiovascular risk of 10% or greater. For adults with a 10-year risk between 7.5% and 10%, statin initiation should be an individualized decision incorporating patient preference and additional risk-enhancing factors.
+
+Screening for abdominal aortic aneurysm with one-time ultrasonography is recommended for men aged 65 to 75 who have ever smoked. Evidence for screening in women who have never smoked does not support routine screening, given the substantially lower prevalence in this population.
+
+CANCER SCREENING
+
+Colorectal cancer screening is recommended for adults aged 45 to 75, using any of several accepted modalities including colonoscopy every 10 years, fecal immunochemical testing annually, or CT colonography every 5 years, among other options. For adults aged 76 to 85, the decision to screen should be individualized based on overall health, prior screening history, and patient preference, since the net benefit decreases with age due to competing mortality risks and the lag time before screening benefit is realized.
+
+Breast cancer screening with mammography is recommended every two years for women aged 40 to 74. The decision to begin screening at age 40 versus a later age should incorporate patient values regarding the tradeoff between earlier detection benefit and the increased cumulative risk of false-positive results and resulting additional imaging or biopsy over a longer screening interval.
+
+Cervical cancer screening recommendations vary by age. For women aged 21 to 29, cytology alone every three years is recommended. For women aged 30 to 65, options include cytology alone every three years, high-risk HPV testing alone every five years, or co-testing with both cytology and HPV testing every five years. Screening is not recommended for women younger than 21 or, in most cases, for women older than 65 who have had adequate prior negative screening.
+
+Lung cancer screening with low-dose CT is recommended annually for adults aged 50 to 80 who have a 20 pack-year or greater smoking history and currently smoke or have quit within the past 15 years. Screening should be discontinued once a person has not smoked for 15 years, or if a health problem develops that substantially limits life expectancy or the ability to undergo curative lung surgery.
+
+METABOLIC AND ENDOCRINE SCREENING
+
+Screening for prediabetes and type 2 diabetes is recommended for adults aged 35 to 70 who have overweight or obesity, with screening considered at a younger age for those with additional risk factors. Screening for abnormal blood glucose should be accompanied by counseling on lifestyle modification for those found to have prediabetes, given the well-established evidence that intensive lifestyle intervention reduces progression to overt diabetes.
+
+Thyroid dysfunction screening in asymptomatic, nonpregnant adults is currently an I statement, reflecting insufficient evidence to determine the balance of benefits and harms of routine screening in the absence of symptoms or risk factors.
+
+BEHAVIORAL AND MENTAL HEALTH SCREENING
+
+Screening for depression is recommended in the general adult population, including older adults and pregnant or postpartum women, with the important caveat that adequate systems must be in place to ensure accurate diagnosis, effective treatment, and appropriate follow-up, since screening without adequate follow-up systems has not been shown to improve outcomes. Screening for unhealthy alcohol use in primary care settings is recommended, using validated screening tools, with brief behavioral counseling interventions for those who screen positive. Screening for anxiety disorders is recommended in adults, including pregnant and postpartum individuals, reflecting a relatively recent addition to routine primary care screening panels.
+
+OBESITY AND NUTRITION
+
+Screening for obesity is recommended for all adults, with referral to intensive, multicomponent behavioral interventions for those with a body mass index of 30 or greater. Evidence supports that intensive behavioral interventions, generally defined as more than several sessions in the first year, produce more clinically meaningful weight loss than brief counseling alone.

@@ -1,0 +1,56 @@
+version: 2
+
+models:
+  - name: dim_patients
+    description: >
+      Central patient dimension. One row per patient with demographics,
+      chronic condition flags, and most recent key lab values.
+      Condition flags are precomputed — no need to join conditions for basic counts.
+    columns:
+      - name: patient_id
+        description: Unique patient identifier
+        tests:
+          - not_null
+          - unique
+      - name: has_diabetes
+        description: 1 if patient has active Type 2 diabetes (ICD-10 E11.*), 0 otherwise.
+        tests:
+          - not_null
+      - name: has_hypertension
+        description: 1 if patient has active essential hypertension (ICD-10 I10), 0 otherwise.
+        tests:
+          - not_null
+      - name: latest_a1c_value
+        description: >
+          Most recent A1c value in percent. NULL if never recorded.
+          Normal below 5.7%. Prediabetes 5.7-6.4%. Diabetes 6.5%+.
+
+  - name: fact_encounters
+    description: >
+      One row per clinical encounter with visit type, timing, cost, and primary diagnosis.
+      Filter by encounter_class for specific visit types.
+    columns:
+      - name: encounter_id
+        description: Unique encounter identifier
+        tests:
+          - not_null
+          - unique
+      - name: encounter_class
+        description: "Type of visit: ambulatory, emergency, inpatient, wellness, urgentcare, outpatient, hospice, snf."
+        tests:
+          - not_null
+
+  - name: fact_lab_results
+    description: >
+      Laboratory results with abnormality flags based on clinical reference ranges.
+      Use is_abnormal = true to find out-of-range values.
+    columns:
+      - name: is_abnormal
+        description: >
+          True if value is outside the clinical reference range for this LOINC code.
+          NULL if no reference range is defined.
+
+  - name: fact_medications
+    description: >
+      Medication records with drug class classification.
+      Use is_active = true for currently prescribed medications.

@@ -1,0 +1,11 @@
+cliniq_dbt:
+  target: dev
+  outputs:
+    dev:
+      type: duckdb
+      path: /opt/cliniq/cliniq.duckdb
+      threads: 4
+      extensions:
+        - delta
+      settings:
+        home_directory: /tmp

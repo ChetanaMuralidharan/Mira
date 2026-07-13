@@ -1,0 +1,31 @@
+Hypertension Management Guidelines — Clinical Summary
+
+DEFINITIONS AND CLASSIFICATION
+
+Blood pressure categories are defined as normal (systolic below 120 and diastolic below 80), elevated (systolic 120-129 and diastolic below 80), stage 1 hypertension (systolic 130-139 or diastolic 80-89), and stage 2 hypertension (systolic 140 or greater or diastolic 90 or greater). These thresholds reflect a lowering of the diagnostic bar compared to older guidelines, based on trial evidence showing cardiovascular benefit from more aggressive blood pressure management even at previously "borderline" levels. Diagnosis should be confirmed using an average of two or more readings on two or more separate occasions, ideally supplemented by out-of-office measurement such as home blood pressure monitoring or 24-hour ambulatory monitoring, to exclude white coat hypertension.
+
+GENERAL TREATMENT THRESHOLDS AND TARGETS
+
+Pharmacologic treatment is generally recommended for adults with stage 2 hypertension regardless of cardiovascular risk, and for adults with stage 1 hypertension who have an estimated 10-year atherosclerotic cardiovascular disease risk of 10% or greater, or who have established cardiovascular disease, diabetes, or chronic kidney disease. For adults with stage 1 hypertension and lower cardiovascular risk, lifestyle modification alone is recommended initially, with reassessment in three to six months. The general blood pressure target for most adults on treatment is below 130/80 mmHg, reflecting evidence that this lower target reduces cardiovascular events compared to the previously standard 140/90 target, albeit with some increase in treatment-related adverse effects such as hypotension and syncope.
+
+FIRST-LINE PHARMACOLOGIC AGENTS
+
+First-line agent classes include thiazide or thiazide-like diuretics, calcium channel blockers, and ACE inhibitors or angiotensin receptor blockers. ACE inhibitors and ARBs should not be combined with each other due to increased risk of hyperkalemia and renal impairment without additional benefit. In Black adults without chronic kidney disease, initial therapy with a thiazide diuretic or calcium channel blocker is preferred over an ACE inhibitor, based on trial evidence showing reduced effectiveness of ACE inhibitor monotherapy for blood pressure lowering in this population, though ACE inhibitors and ARBs remain preferred when chronic kidney disease with albuminuria is present, given their renoprotective effect independent of blood pressure lowering.
+
+Most patients with stage 2 hypertension will require combination therapy with two agents from different classes to reach target blood pressure. Starting with combination therapy, rather than sequential monotherapy titration, is now generally preferred for patients presenting with blood pressure substantially above target, since it achieves control more rapidly and improves long-term adherence compared to multiple sequential medication changes.
+
+COMPELLING INDICATIONS FOR SPECIFIC AGENT CLASSES
+
+Certain comorbid conditions favor specific antihypertensive classes independent of general population recommendations. In patients with diabetes and albuminuria, an ACE inhibitor or ARB is preferred given renoprotective benefit. In patients with heart failure with reduced ejection fraction, the antihypertensive regimen should be built around the guideline-directed heart failure therapies themselves, namely ACE inhibitor/ARB/ARNI, beta blocker, and mineralocorticoid receptor antagonist, which also lower blood pressure as a secondary effect. In patients with prior myocardial infarction, beta blockers are preferred as part of the regimen. In patients with isolated systolic hypertension common in older adults, calcium channel blockers or thiazide diuretics are generally effective first choices.
+
+RESISTANT HYPERTENSION
+
+Resistant hypertension is defined as blood pressure above target despite concurrent use of three antihypertensive agents of different classes, typically including a diuretic, at optimized doses, or blood pressure that is controlled but requires four or more medications. Evaluation of resistant hypertension should include assessment of medication adherence, confirmation of accurate blood pressure measurement technique, screening for secondary causes of hypertension such as primary aldosteronism, renal artery stenosis, or obstructive sleep apnea, and review of medications and substances that can raise blood pressure, including NSAIDs, oral contraceptives, decongestants, and certain immunosuppressants. Primary aldosteronism is now understood to be substantially more prevalent among patients with resistant hypertension than previously recognized, and screening with a plasma aldosterone-to-renin ratio is recommended in this population.
+
+BLOOD PRESSURE MEASUREMENT TECHNIQUE
+
+Accurate blood pressure measurement requires the patient to be seated with back supported and feet on the floor for at least five minutes prior to measurement, with the arm supported at heart level, an appropriately sized cuff, and no talking during measurement. Caffeine, exercise, and smoking should be avoided for at least 30 minutes prior to measurement. Improper technique, particularly an undersized cuff or unsupported arm, can produce clinically significant overestimation of blood pressure, potentially leading to unnecessary treatment escalation.
+
+LIFESTYLE INTERVENTIONS
+
+Lifestyle modifications with demonstrated blood pressure-lowering effect include weight loss, with roughly 1 mmHg reduction per kilogram lost in adults with overweight; the DASH dietary pattern, emphasizing fruits, vegetables, and low-fat dairy while reducing saturated fat; dietary sodium restriction to below 1500-2300 mg daily; regular aerobic physical activity; and moderation of alcohol intake. These interventions can produce blood pressure reductions comparable to single-agent pharmacotherapy and are recommended as foundational therapy alongside medication for all patients with hypertension.

@@ -14,6 +14,7 @@ data/parquet/
 dbt_project/target/
 dbt_project/dbt_packages/
 dbt_project/logs/
+dbt_project/.user.yml
 
 # Environment
 .env
@@ -32,3 +33,19 @@ Thumbs.db
 # Large model files
 *.bin
 *.gguf
+
+# Synthea
+synthea.jar
+output/
+
+#duckdb
+cliniq.duckdb
+synthea.jar
+*.duckdb
+
+# Logs
+logs/
+*.log
+
+# Word temporary files
+~$*.docx

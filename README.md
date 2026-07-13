@@ -35,4 +35,4 @@ python pipeline\run_phase1.py
 - [ ] Phase 2 — Vector store and RAG
 - [ ] Phase 3 — Agent core
 - [ ] Phase 4 — Evaluation and MLflow
-- [ ] Phase 5 — API and frontend
+- [ ] Phase 5 — API and frontenddocker start -a mira_synthea

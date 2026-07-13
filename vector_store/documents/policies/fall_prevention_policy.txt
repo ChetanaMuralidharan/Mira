@@ -1,0 +1,33 @@
+Inpatient Fall Prevention Policy — Institutional Policy
+
+PURPOSE
+
+This policy establishes standardized fall risk assessment and prevention practices for all hospitalized patients, given that inpatient falls represent one of the most common preventable adverse events in hospital settings and can result in significant injury, extended length of stay, and diminished patient confidence and functional independence following discharge.
+
+FALL RISK ASSESSMENT
+
+All patients undergo a standardized fall risk assessment using a validated fall risk scoring tool at admission, with reassessment every shift and following any change in clinical status, transfer between units, new medication with sedating or hypotensive effect, or any fall event during the current admission. Risk factors incorporated into the assessment include history of falls within the preceding 6 months, use of assistive devices, altered mental status or cognitive impairment, use of medications associated with elevated fall risk including sedatives, opioids, and antihypertensives, impaired gait or balance, urinary urgency or incontinence requiring frequent toileting, and postural hypotension.
+
+Patients scoring in the high-risk category are identified with a standardized visual indicator, typically a designated wristband color and door or bed signage, to alert all staff and visitors to fall precaution status without requiring chart review.
+
+UNIVERSAL FALL PRECAUTIONS
+
+Universal precautions applied to all hospitalized patients regardless of individual risk score include maintaining the bed in the lowest position with brakes locked when the patient is unattended, ensuring the call light is within reach and the patient understands how to use it, keeping the patient's personal items and mobility aids within reach, ensuring adequate lighting including nightlight use, and maintaining a clutter-free path to the bathroom. Non-skid footwear is provided to all ambulatory patients, and floor surfaces are kept free of spills with prompt cleanup protocols in place.
+
+HIGH-RISK PATIENT INTERVENTIONS
+
+For patients identified as high risk, additional interventions are implemented beyond universal precautions. These include increased rounding frequency, generally hourly rounding with explicit assessment of the "4 Ps": pain, position, personal needs including toileting, and proximity of personal items. High-risk patients requiring toileting assistance should not be left to ambulate to the bathroom independently, and staff should proactively offer toileting assistance at regular intervals rather than waiting for the patient to request it, given that unassisted attempts to reach the bathroom are among the most common circumstances surrounding inpatient falls. Bed alarms or chair alarms may be employed for patients at very high risk who may attempt to ambulate without calling for assistance, with the alarm serving as a prompt for immediate staff response rather than a substitute for adequate supervision.
+
+For patients with significant cognitive impairment or delirium, consideration should be given to relocating the patient to a room with direct visibility from the nursing station, and involving family or a sitter for continuous observation when other interventions are insufficient to maintain safety, particularly for patients demonstrating persistent attempts to exit the bed unassisted despite reorientation efforts.
+
+MEDICATION REVIEW FOR FALL RISK
+
+Pharmacy review of the medication regimen is recommended for patients with recurrent fall risk flags or a fall event during the admission, specifically evaluating for sedative-hypnotics, benzodiazepines, opioids, and antihypertensive medications that may be contributing to fall risk through sedation, altered gait, or orthostatic hypotension. Where clinically appropriate, dose reduction, timing adjustment, or discontinuation of contributing medications should be discussed with the prescribing provider as part of a comprehensive fall prevention approach rather than relying solely on environmental and supervisory interventions.
+
+POST-FALL MANAGEMENT
+
+Following any inpatient fall, the patient must receive an immediate clinical assessment for injury, including vital signs, neurological assessment, and evaluation for signs of fracture or head injury, with a lowered threshold for imaging in patients on anticoagulant therapy given the elevated risk of occult intracranial hemorrhage in this population even after apparently minor head impact. The responsible provider must be notified of any fall regardless of apparent injury severity. A post-fall huddle involving the bedside nurse and available care team members should occur promptly after the immediate clinical assessment to identify contributing circumstances and determine whether additional precautions are indicated going forward.
+
+DOCUMENTATION AND QUALITY REPORTING
+
+Every fall event is documented in the electronic health record and reported through the institutional incident reporting system, including circumstances of the fall, any injury sustained, and contributing factors identified. Fall rates, including falls with injury, are tracked as a standing institutional quality metric reported monthly to nursing leadership and relevant quality committees, with unit-level rates benchmarked against internal historical trends to identify units warranting additional fall prevention resource allocation or practice reinforcement.

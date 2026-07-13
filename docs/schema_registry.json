@@ -1,0 +1,545 @@
+{
+  "tables": [
+    {
+      "name": "dim_patients",
+      "schema": "marts",
+      "full_name": "main_marts.dim_patients",
+      "description": "Central patient dimension. One row per patient with demographics, chronic condition flags, and most recent key lab values. Condition flags are precomputed \u2014 no need to join conditions for basic counts.\n",
+      "columns": [
+        {
+          "name": "patient_id",
+          "description": "Unique patient identifier",
+          "data_type": "VARCHAR"
+        },
+        {
+          "name": "birth_date",
+          "description": "",
+          "data_type": "DATE"
+        },
+        {
+          "name": "death_date",
+          "description": "",
+          "data_type": "DATE"
+        },
+        {
+          "name": "gender",
+          "description": "",
+          "data_type": "VARCHAR"
+        },
+        {
+          "name": "race",
+          "description": "",
+          "data_type": "VARCHAR"
+        },
+        {
+          "name": "ethnicity",
+          "description": "",
+          "data_type": "VARCHAR"
+        },
+        {
+          "name": "city",
+          "description": "",
+          "data_type": "VARCHAR"
+        },
+        {
+          "name": "state",
+          "description": "",
+          "data_type": "VARCHAR"
+        },
+        {
+          "name": "income",
+          "description": "",
+          "data_type": "BIGINT"
+        },
+        {
+          "name": "is_deceased",
+          "description": "",
+          "data_type": "BOOLEAN"
+        },
+        {
+          "name": "age_at_generation",
+          "description": "",
+          "data_type": "BIGINT"
+        },
+        {
+          "name": "age_bucket",
+          "description": "",
+          "data_type": "VARCHAR"
+        },
+        {
+          "name": "healthcare_expenses",
+          "description": "",
+          "data_type": "DOUBLE"
+        },
+        {
+          "name": "healthcare_coverage",
+          "description": "",
+          "data_type": "DOUBLE"
+        },
+        {
+          "name": "has_diabetes",
+          "description": "1 if patient has active Type 2 diabetes (ICD-10 E11.*), 0 otherwise.",
+          "data_type": "INTEGER"
+        },
+        {
+          "name": "has_hypertension",
+          "description": "1 if patient has active essential hypertension (ICD-10 I10), 0 otherwise.",
+          "data_type": "INTEGER"
+        },
+        {
+          "name": "has_copd",
+          "description": "",
+          "data_type": "INTEGER"
+        },
+        {
+          "name": "has_heart_failure",
+          "description": "",
+          "data_type": "INTEGER"
+        },
+        {
+          "name": "has_ckd",
+          "description": "",
+          "data_type": "INTEGER"
+        },
+        {
+          "name": "has_asthma",
+          "description": "",
+          "data_type": "INTEGER"
+        },
+        {
+          "name": "latest_a1c_value",
+          "description": "Most recent A1c value in percent. NULL if never recorded. Normal below 5.7%. Prediabetes 5.7-6.4%. Diabetes 6.5%+.\n",
+          "data_type": "FLOAT"
+        },
+        {
+          "name": "latest_bmi_value",
+          "description": "",
+          "data_type": "FLOAT"
+        }
+      ]
+    },
+    {
+      "name": "fact_encounters",
+      "schema": "marts",
+      "full_name": "main_marts.fact_encounters",
+      "description": "One row per clinical encounter with visit type, timing, cost, and primary diagnosis. Filter by encounter_class for specific visit types.\n",
+      "columns": [
+        {
+          "name": "encounter_id",
+          "description": "Unique encounter identifier",
+          "data_type": "VARCHAR"
+        },
+        {
+          "name": "patient_id",
+          "description": "",
+          "data_type": "VARCHAR"
+        },
+        {
+          "name": "start_datetime",
+          "description": "",
+          "data_type": "TIMESTAMP"
+        },
+        {
+          "name": "stop_datetime",
+          "description": "",
+          "data_type": "TIMESTAMP"
+        },
+        {
+          "name": "encounter_class",
+          "description": "Type of visit: ambulatory, emergency, inpatient, wellness, urgentcare, outpatient, hospice, snf.",
+          "data_type": "VARCHAR"
+        },
+        {
+          "name": "encounter_description",
+          "description": "",
+          "data_type": "VARCHAR"
+        },
+        {
+          "name": "reason_description",
+          "description": "",
+          "data_type": "VARCHAR"
+        },
+        {
+          "name": "base_encounter_cost",
+          "description": "",
+          "data_type": "DOUBLE"
+        },
+        {
+          "name": "total_claim_cost",
+          "description": "",
+          "data_type": "DOUBLE"
+        },
+        {
+          "name": "payer_coverage",
+          "description": "",
+          "data_type": "DOUBLE"
+        },
+        {
+          "name": "duration_hours",
+          "description": "",
+          "data_type": "DOUBLE"
+        },
+        {
+          "name": "encounter_year",
+          "description": "",
+          "data_type": "BIGINT"
+        },
+        {
+          "name": "encounter_month",
+          "description": "",
+          "data_type": "BIGINT"
+        },
+        {
+          "name": "encounter_month_start",
+          "description": "",
+          "data_type": "TIMESTAMP"
+        },
+        {
+          "name": "gender",
+          "description": "",
+          "data_type": "VARCHAR"
+        },
+        {
+          "name": "race",
+          "description": "",
+          "data_type": "VARCHAR"
+        },
+        {
+          "name": "age_bucket",
+          "description": "",
+          "data_type": "VARCHAR"
+        },
+        {
+          "name": "income",
+          "description": "",
+          "data_type": "BIGINT"
+        },
+        {
+          "name": "age_at_encounter",
+          "description": "",
+          "data_type": "BIGINT"
+        },
+        {
+          "name": "primary_diagnosis_code",
+          "description": "",
+          "data_type": "VARCHAR"
+        },
+        {
+          "name": "primary_diagnosis_description",
+          "description": "",
+          "data_type": "VARCHAR"
+        }
+      ]
+    },
+    {
+      "name": "fact_lab_results",
+      "schema": "marts",
+      "full_name": "main_marts.fact_lab_results",
+      "description": "Laboratory results with abnormality flags based on clinical reference ranges. Use is_abnormal = true to find out-of-range values.\n",
+      "columns": [
+        {
+          "name": "patient_id",
+          "description": "",
+          "data_type": "VARCHAR"
+        },
+        {
+          "name": "encounter_id",
+          "description": "",
+          "data_type": "VARCHAR"
+        },
+        {
+          "name": "observation_date",
+          "description": "",
+          "data_type": "DATE"
+        },
+        {
+          "name": "loinc_code",
+          "description": "",
+          "data_type": "VARCHAR"
+        },
+        {
+          "name": "test_name",
+          "description": "",
+          "data_type": "VARCHAR"
+        },
+        {
+          "name": "value_numeric",
+          "description": "",
+          "data_type": "FLOAT"
+        },
+        {
+          "name": "units",
+          "description": "",
+          "data_type": "VARCHAR"
+        },
+        {
+          "name": "gender",
+          "description": "",
+          "data_type": "VARCHAR"
+        },
+        {
+          "name": "age_bucket",
+          "description": "",
+          "data_type": "VARCHAR"
+        },
+        {
+          "name": "age_at_generation",
+          "description": "",
+          "data_type": "BIGINT"
+        },
+        {
+          "name": "result_year",
+          "description": "",
+          "data_type": "BIGINT"
+        },
+        {
+          "name": "result_month",
+          "description": "",
+          "data_type": "BIGINT"
+        },
+        {
+          "name": "is_abnormal",
+          "description": "True if value is outside the clinical reference range for this LOINC code. NULL if no reference range is defined.\n",
+          "data_type": "BOOLEAN"
+        },
+        {
+          "name": "normal_low",
+          "description": "",
+          "data_type": "DOUBLE"
+        },
+        {
+          "name": "normal_high",
+          "description": "",
+          "data_type": "DOUBLE"
+        }
+      ]
+    },
+    {
+      "name": "fact_medications",
+      "schema": "marts",
+      "full_name": "main_marts.fact_medications",
+      "description": "Medication records with drug class classification. Use is_active = true for currently prescribed medications.",
+      "columns": [
+        {
+          "name": "patient_id",
+          "description": "",
+          "data_type": "VARCHAR"
+        },
+        {
+          "name": "encounter_id",
+          "description": "",
+          "data_type": "VARCHAR"
+        },
+        {
+          "name": "rxnorm_code",
+          "description": "",
+          "data_type": "VARCHAR"
+        },
+        {
+          "name": "medication_name",
+          "description": "",
+          "data_type": "VARCHAR"
+        },
+        {
+          "name": "start_date",
+          "description": "",
+          "data_type": "DATE"
+        },
+        {
+          "name": "stop_date",
+          "description": "",
+          "data_type": "DATE"
+        },
+        {
+          "name": "is_active",
+          "description": "",
+          "data_type": "BOOLEAN"
+        },
+        {
+          "name": "duration_days",
+          "description": "",
+          "data_type": "BIGINT"
+        },
+        {
+          "name": "base_cost",
+          "description": "",
+          "data_type": "DOUBLE"
+        },
+        {
+          "name": "total_cost",
+          "description": "",
+          "data_type": "DOUBLE"
+        },
+        {
+          "name": "reason_description",
+          "description": "",
+          "data_type": "VARCHAR"
+        },
+        {
+          "name": "gender",
+          "description": "",
+          "data_type": "VARCHAR"
+        },
+        {
+          "name": "age_bucket",
+          "description": "",
+          "data_type": "VARCHAR"
+        },
+        {
+          "name": "has_diabetes",
+          "description": "",
+          "data_type": "INTEGER"
+        },
+        {
+          "name": "has_hypertension",
+          "description": "",
+          "data_type": "INTEGER"
+        },
+        {
+          "name": "drug_class",
+          "description": "",
+          "data_type": "VARCHAR"
+        }
+      ]
+    },
+    {
+      "name": "metrics_condition_prevalence",
+      "schema": "metrics",
+      "full_name": "main_metrics.metrics_condition_prevalence",
+      "description": "",
+      "columns": [
+        {
+          "name": "icd10_code",
+          "description": "",
+          "data_type": "VARCHAR"
+        },
+        {
+          "name": "condition_description",
+          "description": "",
+          "data_type": "VARCHAR"
+        },
+        {
+          "name": "patient_count",
+          "description": "",
+          "data_type": "BIGINT"
+        },
+        {
+          "name": "prevalence_pct",
+          "description": "",
+          "data_type": "DOUBLE"
+        }
+      ]
+    },
+    {
+      "name": "metrics_encounter_volume",
+      "schema": "metrics",
+      "full_name": "main_metrics.metrics_encounter_volume",
+      "description": "",
+      "columns": [
+        {
+          "name": "encounter_year",
+          "description": "",
+          "data_type": "BIGINT"
+        },
+        {
+          "name": "encounter_month",
+          "description": "",
+          "data_type": "BIGINT"
+        },
+        {
+          "name": "encounter_month_start",
+          "description": "",
+          "data_type": "TIMESTAMP"
+        },
+        {
+          "name": "encounter_class",
+          "description": "",
+          "data_type": "VARCHAR"
+        },
+        {
+          "name": "encounter_count",
+          "description": "",
+          "data_type": "BIGINT"
+        },
+        {
+          "name": "avg_claim_cost",
+          "description": "",
+          "data_type": "DOUBLE"
+        },
+        {
+          "name": "total_revenue",
+          "description": "",
+          "data_type": "DOUBLE"
+        }
+      ]
+    },
+    {
+      "name": "metrics_population_summary",
+      "schema": "metrics",
+      "full_name": "main_metrics.metrics_population_summary",
+      "description": "",
+      "columns": [
+        {
+          "name": "total_patients",
+          "description": "",
+          "data_type": "BIGINT"
+        },
+        {
+          "name": "alive_patients",
+          "description": "",
+          "data_type": "BIGINT"
+        },
+        {
+          "name": "deceased_patients",
+          "description": "",
+          "data_type": "BIGINT"
+        },
+        {
+          "name": "male_patients",
+          "description": "",
+          "data_type": "BIGINT"
+        },
+        {
+          "name": "female_patients",
+          "description": "",
+          "data_type": "BIGINT"
+        },
+        {
+          "name": "average_age",
+          "description": "",
+          "data_type": "DOUBLE"
+        },
+        {
+          "name": "diabetic_patients",
+          "description": "",
+          "data_type": "BIGINT"
+        },
+        {
+          "name": "hypertensive_patients",
+          "description": "",
+          "data_type": "BIGINT"
+        },
+        {
+          "name": "heart_failure_patients",
+          "description": "",
+          "data_type": "BIGINT"
+        },
+        {
+          "name": "copd_patients",
+          "description": "",
+          "data_type": "BIGINT"
+        },
+        {
+          "name": "pct_female",
+          "description": "",
+          "data_type": "DOUBLE"
+        },
+        {
+          "name": "pct_diabetic",
+          "description": "",
+          "data_type": "DOUBLE"
+        }
+      ]
+    }
+  ]
+}
