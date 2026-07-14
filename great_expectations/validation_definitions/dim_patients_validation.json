@@ -1,0 +1,22 @@
+{
+  "data": {
+    "asset": {
+      "id": "95a17f84-d6b9-4aa5-b101-7e665fca5454",
+      "name": "dim_patients"
+    },
+    "batch_definition": {
+      "id": "92f06c1e-4a51-477f-9bdd-149334fd2ebf",
+      "name": "dim_patients_whole_dataframe"
+    },
+    "datasource": {
+      "id": "e70468a2-4b49-4311-8bd0-cf5c0128a0a1",
+      "name": "mira_pandas_duckdb"
+    }
+  },
+  "id": "391aa1bd-89a6-47e8-929b-88053fed0bc6",
+  "name": "dim_patients_validation",
+  "suite": {
+    "id": "9c579b92-931b-4b89-be0a-6925e7f17d6f",
+    "name": "dim_patients_suite"
+  }
+}

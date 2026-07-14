@@ -3,9 +3,11 @@ cliniq_dbt:
   outputs:
     dev:
       type: duckdb
-      path: /opt/cliniq/cliniq.duckdb
+      # path: /opt/cliniq/cliniq.duckdb
+      path: "{{ env_var('CLINIQ_DUCKDB_PATH', 'C:/Users/mchet/Documents/Work/Projects/Project 10 - Clinic/cliniq.duckdb') }}"
       threads: 4
       extensions:
         - delta
       settings:
-        home_directory: /tmp
+        # home_directory: /tmp
+        home_directory: "C:/Users/mchet/Documents/Work/Projects/Project 10 - Clinic"

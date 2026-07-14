@@ -49,3 +49,29 @@ logs/
 
 # Word temporary files
 ~$*.docx
+
+#GE folders
+great_expectations/uncommitted/
+
+# Runtime
+query_history.db
+
+# Archives
+*.zip
+
+# MLflow
+mlflow_tracking/
+
+# Python
+__pycache__/
+*.pyc
+
+# Environment
+.env
+.env.*
+
+# VSCode
+.vscode/
+
+# JetBrains
+.idea/

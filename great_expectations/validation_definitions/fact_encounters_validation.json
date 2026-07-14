@@ -1,0 +1,22 @@
+{
+  "data": {
+    "asset": {
+      "id": "c44e60a6-4d59-4ba1-994c-e6832958e5a5",
+      "name": "fact_encounters"
+    },
+    "batch_definition": {
+      "id": "b391c669-4bdd-478a-b642-482dfaedc105",
+      "name": "fact_encounters_whole_dataframe"
+    },
+    "datasource": {
+      "id": "e70468a2-4b49-4311-8bd0-cf5c0128a0a1",
+      "name": "mira_pandas_duckdb"
+    }
+  },
+  "id": "e7eca85c-7460-4a5e-b21a-a25a8158b20b",
+  "name": "fact_encounters_validation",
+  "suite": {
+    "id": "c884ec95-d3cd-473f-8f54-da84daab0ba7",
+    "name": "fact_encounters_suite"
+  }
+}

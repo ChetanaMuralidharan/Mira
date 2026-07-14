@@ -1,0 +1,68 @@
+{
+  "expectations": [
+    {
+      "id": "9d417298-9121-4a9b-8fb6-d4bd7c45b364",
+      "kwargs": {
+        "column": "encounter_id"
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_not_be_null"
+    },
+    {
+      "id": "17332e54-34e2-47a7-8105-32a25f3421c4",
+      "kwargs": {
+        "column": "encounter_id"
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_be_unique"
+    },
+    {
+      "id": "b7160654-7e82-4cef-9d74-94cd724cbe1a",
+      "kwargs": {
+        "column": "patient_id"
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_not_be_null"
+    },
+    {
+      "id": "cd70bc7b-b5e2-4f28-9c01-b2f02287cf29",
+      "kwargs": {
+        "column": "duration_hours",
+        "min_value": 0.0
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_be_between"
+    },
+    {
+      "id": "becc8150-9a48-445b-902b-96c23a180be5",
+      "kwargs": {
+        "column": "total_claim_cost",
+        "min_value": 0.0
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_be_between"
+    },
+    {
+      "id": "dc7bf25c-86a4-42b9-b23c-d5f449e4176a",
+      "kwargs": {
+        "column_A": "stop_datetime",
+        "column_B": "start_datetime",
+        "or_equal": true
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_pair_values_a_to_be_greater_than_b"
+    }
+  ],
+  "id": "c884ec95-d3cd-473f-8f54-da84daab0ba7",
+  "meta": {
+    "great_expectations_version": "1.18.2"
+  },
+  "name": "fact_encounters_suite",
+  "notes": null
+}

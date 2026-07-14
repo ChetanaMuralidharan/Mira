@@ -1,0 +1,140 @@
+{
+  "expectations": [
+    {
+      "id": "2c5433b6-720f-4249-8a2a-864c59ac04df",
+      "kwargs": {
+        "column": "patient_id"
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_not_be_null"
+    },
+    {
+      "id": "d963501c-33b1-41fa-9349-382696e02374",
+      "kwargs": {
+        "column": "patient_id"
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_be_unique"
+    },
+    {
+      "id": "de2f5c9f-7b49-448a-b016-7835b31b5024",
+      "kwargs": {
+        "column": "age_at_generation",
+        "max_value": 120.0,
+        "min_value": 0.0
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_be_between"
+    },
+    {
+      "id": "7e69ad28-1e5b-4d0f-aca3-e093c0036311",
+      "kwargs": {
+        "column": "gender",
+        "value_set": [
+          "M",
+          "F"
+        ]
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_be_in_set"
+    },
+    {
+      "id": "1276341d-c626-4cf1-9cf9-037fea9015a5",
+      "kwargs": {
+        "column": "income",
+        "min_value": 0.0
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_be_between"
+    },
+    {
+      "id": "842dfc3b-c743-420c-a250-03c0374450c7",
+      "kwargs": {
+        "column": "has_diabetes",
+        "value_set": [
+          0,
+          1
+        ]
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_be_in_set"
+    },
+    {
+      "id": "44600869-e811-47e5-90d9-bea18826da92",
+      "kwargs": {
+        "column": "has_hypertension",
+        "value_set": [
+          0,
+          1
+        ]
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_be_in_set"
+    },
+    {
+      "id": "0cb0ddf3-0d65-4eae-bb50-0d954e6a6965",
+      "kwargs": {
+        "column": "has_copd",
+        "value_set": [
+          0,
+          1
+        ]
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_be_in_set"
+    },
+    {
+      "id": "db9556ed-5a46-42f8-8cb2-7b90cb4e570e",
+      "kwargs": {
+        "column": "has_heart_failure",
+        "value_set": [
+          0,
+          1
+        ]
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_be_in_set"
+    },
+    {
+      "id": "b1daec0b-2f92-446d-a05d-6856f28d7f94",
+      "kwargs": {
+        "column": "has_ckd",
+        "value_set": [
+          0,
+          1
+        ]
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_be_in_set"
+    },
+    {
+      "id": "bbc23667-64d3-45da-8235-55c5769630d6",
+      "kwargs": {
+        "column": "has_asthma",
+        "value_set": [
+          0,
+          1
+        ]
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_be_in_set"
+    }
+  ],
+  "id": "9c579b92-931b-4b89-be0a-6925e7f17d6f",
+  "meta": {
+    "great_expectations_version": "1.18.2"
+  },
+  "name": "dim_patients_suite",
+  "notes": null
+}

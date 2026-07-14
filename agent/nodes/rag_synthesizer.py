@@ -24,4 +24,5 @@ def rag_synthesizer(state: ClinIQState) -> ClinIQState:
         question=state["user_question"],
     )
     state["rag_result"] = call_llm(prompt, "rag_synthesizer", model_tier="quality")
+    state["validation_status"] = "not_applicable"
     return state

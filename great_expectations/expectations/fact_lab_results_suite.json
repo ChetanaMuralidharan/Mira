@@ -1,0 +1,93 @@
+{
+  "expectations": [
+    {
+      "id": "2bfe452c-947a-44db-ae8c-3a14c3b204dd",
+      "kwargs": {
+        "column": "patient_id"
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_not_be_null"
+    },
+    {
+      "id": "856f700a-6d1c-4209-88a9-ef346c230608",
+      "kwargs": {
+        "column": "loinc_code"
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_not_be_null"
+    },
+    {
+      "id": "262910d1-1e84-4334-aab0-8597512b61d6",
+      "kwargs": {
+        "column": "value_numeric",
+        "condition_parser": "pandas",
+        "max_value": 15.0,
+        "min_value": 2.0,
+        "row_condition": {
+          "pass_through_filter": "loinc_code == '4548-4'",
+          "type": "pass_through"
+        }
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_be_between"
+    },
+    {
+      "id": "da1d9b5a-ed3c-4b88-8658-34e1666d008c",
+      "kwargs": {
+        "column": "value_numeric",
+        "condition_parser": "pandas",
+        "max_value": 600.0,
+        "min_value": 20.0,
+        "row_condition": {
+          "pass_through_filter": "loinc_code == '2339-0'",
+          "type": "pass_through"
+        }
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_be_between"
+    },
+    {
+      "id": "4cbfcc48-1238-4ec6-82c6-78e8ce28beca",
+      "kwargs": {
+        "column": "value_numeric",
+        "condition_parser": "pandas",
+        "max_value": 300.0,
+        "min_value": 40.0,
+        "mostly": 0.999,
+        "row_condition": {
+          "pass_through_filter": "loinc_code == '8480-6'",
+          "type": "pass_through"
+        }
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_be_between"
+    },
+    {
+      "id": "0fdd4378-a343-4fc7-b4b2-5696af2ef095",
+      "kwargs": {
+        "column": "value_numeric",
+        "condition_parser": "pandas",
+        "max_value": 80.0,
+        "min_value": 10.0,
+        "row_condition": {
+          "pass_through_filter": "loinc_code == '39156-5'",
+          "type": "pass_through"
+        }
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_be_between"
+    }
+  ],
+  "id": "d26d7cab-3887-4b15-8c39-1285ff2d5d9c",
+  "meta": {
+    "great_expectations_version": "1.18.2"
+  },
+  "name": "fact_lab_results_suite",
+  "notes": null
+}

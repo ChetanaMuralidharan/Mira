@@ -37,6 +37,7 @@ Deprecated==1.3.1
 distro==1.9.0
 docker==7.1.0
 duckdb==1.5.4
+duckdb-engine
 exceptiongroup==1.3.1
 fastapi==0.138.1
 filelock==3.29.4

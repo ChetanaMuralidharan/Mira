@@ -1,0 +1,183 @@
+[
+  {
+    "id": "sql_001",
+    "type": "sql",
+    "question": "How many patients are in the dataset?",
+    "expected_sql": "SELECT COUNT(*) AS patient_count FROM main_marts.dim_patients",
+    "answer_type": "numeric_exact"
+  },
+  {
+    "id": "sql_002",
+    "type": "sql",
+    "question": "How many patients have diabetes?",
+    "expected_sql": "SELECT COUNT(*) AS diabetic_patients FROM main_marts.dim_patients WHERE has_diabetes = true",
+    "answer_type": "numeric_exact"
+  },
+  {
+    "id": "sql_003",
+    "type": "sql",
+    "question": "What percentage of patients are female?",
+    "expected_sql": "SELECT ROUND(100.0 * SUM(CASE WHEN gender = 'F' THEN 1 ELSE 0 END) / COUNT(*), 2) AS percent_female FROM main_marts.dim_patients",
+    "answer_type": "numeric_tolerance",
+    "tolerance": 0.5
+  },
+  {
+    "id": "sql_004",
+    "type": "sql",
+    "question": "What is the most common encounter class?",
+    "expected_sql": "SELECT encounter_class, COUNT(*) AS encounter_count FROM main_marts.fact_encounters GROUP BY encounter_class ORDER BY encounter_count DESC LIMIT 1",
+    "answer_type": "top_category"
+  },
+  {
+    "id": "sql_005",
+    "type": "sql",
+    "question": "How many patients have both diabetes and hypertension?",
+    "expected_sql": "SELECT COUNT(*) AS patient_count FROM main_marts.dim_patients WHERE has_diabetes = true AND has_hypertension = true",
+    "answer_type": "numeric_exact"
+  },
+  {
+    "id": "sql_006",
+    "type": "sql",
+    "question": "How many patients have hypertension?",
+    "expected_sql": "SELECT COUNT(*) AS hypertensive_patients FROM main_marts.dim_patients WHERE has_hypertension = true",
+    "answer_type": "numeric_exact"
+  },
+  {
+    "id": "sql_007",
+    "type": "sql",
+    "question": "How many patients have COPD?",
+    "expected_sql": "SELECT COUNT(*) AS copd_patients FROM main_marts.dim_patients WHERE has_copd = true",
+    "answer_type": "numeric_exact"
+  },
+  {
+    "id": "sql_008",
+    "type": "sql",
+    "question": "How many patients have heart failure?",
+    "expected_sql": "SELECT COUNT(*) AS heart_failure_patients FROM main_marts.dim_patients WHERE has_heart_failure = true",
+    "answer_type": "numeric_exact"
+  },
+  {
+    "id": "sql_009",
+    "type": "sql",
+    "question": "What is the average age of patients?",
+    "expected_sql": "SELECT ROUND(AVG(age_at_generation), 2) AS average_age FROM main_marts.dim_patients",
+    "answer_type": "numeric_tolerance",
+    "tolerance": 0.5
+  },
+  {
+    "id": "sql_010",
+    "type": "sql",
+    "question": "What percentage of encounters are emergency visits?",
+    "expected_sql": "SELECT ROUND(100.0 * SUM(CASE WHEN encounter_class = 'emergency' THEN 1 ELSE 0 END) / COUNT(*), 2) AS emergency_visit_percent FROM main_marts.fact_encounters",
+    "answer_type": "numeric_tolerance",
+    "tolerance": 0.5
+  },
+  {
+    "id": "sql_011",
+    "type": "sql",
+    "question": "Which month has the highest encounter volume?",
+    "expected_sql": "SELECT encounter_month_start, COUNT(*) AS encounter_count FROM main_marts.fact_encounters GROUP BY encounter_month_start ORDER BY encounter_count DESC LIMIT 1",
+    "answer_type": "top_category"
+  },
+  {
+    "id": "sql_012",
+    "type": "sql",
+    "question": "What is the average inpatient stay duration in hours?",
+    "expected_sql": "SELECT ROUND(AVG(duration_hours), 2) AS avg_inpatient_duration_hours FROM main_marts.fact_encounters WHERE encounter_class = 'inpatient'",
+    "answer_type": "numeric_tolerance",
+    "tolerance": 1.0
+  },
+  {
+    "id": "sql_013",
+    "type": "sql",
+    "question": "How many active medication records are there?",
+    "expected_sql": "SELECT COUNT(*) AS active_medications FROM main_marts.fact_medications WHERE is_active = true",
+    "answer_type": "numeric_exact"
+  },
+  {
+    "id": "sql_014",
+    "type": "sql",
+    "question": "What is the average A1c value for diabetic patients?",
+    "expected_sql": "SELECT ROUND(AVG(latest_a1c_value), 2) AS avg_a1c FROM main_marts.dim_patients WHERE has_diabetes = true AND latest_a1c_value IS NOT NULL",
+    "answer_type": "numeric_tolerance",
+    "tolerance": 0.3
+  },
+  {
+    "id": "sql_015",
+    "type": "sql",
+    "question": "What are the top 5 most common conditions by patient count?",
+    "expected_sql": "SELECT condition_description, patient_count FROM main_metrics.metrics_condition_prevalence ORDER BY patient_count DESC LIMIT 5",
+    "answer_type": "contains_top_items",
+    "top_n": 5
+  },
+  {
+    "id": "rag_001",
+    "type": "rag",
+    "question": "What does the hospital readmission policy say about heart failure patients?",
+    "expected_keywords": ["readmission", "heart failure", "follow-up"],
+    "answer_type": "keyword_match"
+  },
+  {
+    "id": "rag_002",
+    "type": "rag",
+    "question": "What are the escalation criteria for abnormal lab results?",
+    "expected_keywords": ["abnormal", "lab", "escalation", "notify"],
+    "answer_type": "keyword_match"
+  },
+  {
+    "id": "rag_003",
+    "type": "rag",
+    "question": "What does the medication reconciliation protocol require?",
+    "expected_keywords": ["medication", "reconciliation", "discharge", "review"],
+    "answer_type": "keyword_match"
+  },
+  {
+    "id": "rag_004",
+    "type": "rag",
+    "question": "What does the infection control policy require?",
+    "expected_keywords": ["infection", "hand hygiene", "isolation", "precautions"],
+    "answer_type": "keyword_match"
+  },
+  {
+    "id": "rag_005",
+    "type": "rag",
+    "question": "What does the discharge checklist protocol require before discharge?",
+    "expected_keywords": ["discharge", "checklist", "follow-up", "instructions"],
+    "answer_type": "keyword_match"
+  },
+  {
+    "id": "rag_006",
+    "type": "rag",
+    "question": "What does the sepsis early warning protocol say?",
+    "expected_keywords": ["sepsis", "warning", "screening", "escalation"],
+    "answer_type": "keyword_match"
+  },
+  {
+    "id": "rag_007",
+    "type": "rag",
+    "question": "What does the fall prevention policy recommend?",
+    "expected_keywords": ["fall", "risk", "prevention", "assessment"],
+    "answer_type": "keyword_match"
+  },
+  {
+    "id": "rag_008",
+    "type": "rag",
+    "question": "What does the blood glucose monitoring policy require?",
+    "expected_keywords": ["blood glucose", "monitoring", "diabetes", "hypoglycemia"],
+    "answer_type": "keyword_match"
+  },
+  {
+    "id": "rag_009",
+    "type": "rag",
+    "question": "What does the pain management policy say?",
+    "expected_keywords": ["pain", "assessment", "management", "reassessment"],
+    "answer_type": "keyword_match"
+  },
+  {
+    "id": "rag_010",
+    "type": "rag",
+    "question": "What does the do-not-resuscitate policy describe?",
+    "expected_keywords": ["do not resuscitate", "DNR", "documentation", "patient"],
+    "answer_type": "keyword_match"
+  }
+]

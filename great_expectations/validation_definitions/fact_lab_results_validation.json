@@ -1,0 +1,22 @@
+{
+  "data": {
+    "asset": {
+      "id": "c873324d-c613-4ae7-be79-8601a35c860b",
+      "name": "fact_lab_results"
+    },
+    "batch_definition": {
+      "id": "0290d9b5-2c27-4e6c-974b-c74141007168",
+      "name": "fact_lab_results_whole_dataframe"
+    },
+    "datasource": {
+      "id": "e70468a2-4b49-4311-8bd0-cf5c0128a0a1",
+      "name": "mira_pandas_duckdb"
+    }
+  },
+  "id": "290dd5b7-81c7-4cb0-ad96-5bfa7a6e368c",
+  "name": "fact_lab_results_validation",
+  "suite": {
+    "id": "d26d7cab-3887-4b15-8c39-1285ff2d5d9c",
+    "name": "fact_lab_results_suite"
+  }
+}
