@@ -1,0 +1,125 @@
+Hypoglycemia Management Protocol
+
+Purpose
+
+This simulated protocol defines standardized procedures for recognizing, managing, documenting, and escalating hypoglycemia events within the MIRA clinical intelligence demonstration system. It supports Retrieval-Augmented Generation benchmarking and is not intended for clinical use.
+
+Scope
+
+This protocol applies to adult patients with diabetes mellitus, insulin therapy, glucose-lowering medications, recurrent hypoglycemia, hospitalization, emergency encounters, or documented low blood glucose values.
+
+Recognition
+
+Hypoglycemia may present with sweating, tremor, palpitations, hunger, dizziness, confusion, blurred vision, weakness, irritability, headache, or altered mental status.
+
+Patients may also present with falls, seizures, loss of consciousness, or behavioral changes.
+
+Assessment
+
+Whenever hypoglycemia is suspected:
+
+• Measure blood glucose immediately.
+
+• Review recent medications.
+
+• Review meal intake.
+
+• Assess recent physical activity.
+
+• Evaluate contributing illnesses.
+
+Recent insulin administration and oral diabetes medications should also be reviewed.
+
+Treatment
+
+Patients who are awake and able to swallow should receive an appropriate source of fast-acting carbohydrate according to institutional policy.
+
+Blood glucose should be reassessed after treatment to confirm recovery.
+
+Patients unable to swallow or with severe neurological impairment require immediate escalation and emergency management.
+
+Monitoring
+
+Following recovery, patients should continue to receive blood glucose monitoring until stable.
+
+The care team should identify contributing factors to reduce recurrence risk.
+
+Medication Review
+
+Medication reconciliation should determine whether insulin dosing errors, medication duplication, missed meals, impaired kidney function, or other factors contributed to the hypoglycemic episode.
+
+Patients with repeated hypoglycemia should undergo additional medication review before discharge.
+
+Patient Education
+
+Education should include:
+
+• Recognition of hypoglycemia symptoms
+
+• Blood glucose monitoring
+
+• Meal planning
+
+• Medication adherence
+
+• Carrying emergency glucose sources
+
+• When to contact healthcare providers
+
+Patients should understand how to prevent recurrent episodes.
+
+Discharge Planning
+
+Patients discharged following hypoglycemia should receive:
+
+• Updated medication instructions
+
+• Blood glucose monitoring plan
+
+• Follow-up appointment
+
+• Education documentation
+
+• Emergency precautions
+
+High-risk patients should receive early outpatient follow-up.
+
+Escalation Criteria
+
+Immediate escalation should occur for:
+
+• Blood glucose remaining critically low
+
+• Recurrent hypoglycemia
+
+• Seizure activity
+
+• Loss of consciousness
+
+• Inability to swallow
+
+• Significant neurological symptoms
+
+Escalation actions may include emergency response activation, provider notification, medication review, and hospital admission.
+
+Documentation Requirements
+
+Clinical documentation should include presenting symptoms, blood glucose values, treatment provided, response to treatment, medication review, education, follow-up recommendations, and escalation actions.
+
+Quality Metrics
+
+Suggested quality indicators include:
+
+• Time to glucose reassessment
+
+• Documentation completeness
+
+• Medication reconciliation completion
+
+• Education completion
+
+• Recurrent hypoglycemia rate
+
+Disclaimer
+
+This protocol is fictional and created solely for evaluation of the MIRA Retrieval-Augmented Generation pipeline and benchmark framework.

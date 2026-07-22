@@ -1,0 +1,49 @@
+Asthma Management Guideline
+
+Purpose
+
+This simulated guideline describes asthma assessment, monitoring, and care coordination for the MIRA demonstration system. It is designed to support RAG retrieval testing, benchmark evaluation, and portfolio demonstration. It is not medical advice and should not be used for real patient care.
+
+Scope
+
+This guideline applies to patients with asthma, recurrent wheezing, reversible airway symptoms, rescue inhaler use, or repeated respiratory encounters. It is relevant for outpatient visits, emergency encounters, discharge planning, and chronic disease management workflows.
+
+Asthma Control Assessment
+
+Asthma control should be reviewed by assessing symptom frequency, nighttime symptoms, activity limitation, rescue inhaler use, recent exacerbations, missed school or work, and emergency visits. Poor control may be suspected when symptoms are frequent, rescue medication use increases, or the patient has repeated urgent care encounters.
+
+Risk Criteria
+
+Higher-risk asthma patients may include those with recent exacerbations, prior hospitalization, frequent rescue inhaler use, poor adherence to controller medication, exposure to smoke or environmental triggers, or limited understanding of their asthma action plan. Patients with repeated emergency visits should receive additional follow-up and education.
+
+Medication Review
+
+Medication review should confirm the patient’s current asthma medications, rescue inhaler availability, controller inhaler use, adherence barriers, and inhaler technique. Incorrect inhaler technique should be addressed with demonstration and teach-back. Patients should understand which medication is for daily control and which is for rapid symptom relief.
+
+Trigger Assessment
+
+Common asthma triggers may include smoke, allergens, respiratory infections, exercise, cold air, occupational exposures, and poor air quality. The care team should document known triggers and provide education on avoidance or mitigation strategies when appropriate.
+
+Exacerbation Warning Signs
+
+Warning signs may include increasing wheeze, shortness of breath, chest tightness, persistent cough, reduced activity tolerance, nighttime awakening, or reduced response to rescue medication. Severe symptoms, difficulty speaking, bluish lips, confusion, or rapid worsening require urgent escalation.
+
+Discharge Planning
+
+Patients discharged after an asthma-related encounter should receive medication instructions, inhaler technique review, trigger education, follow-up appointment guidance, and an asthma action plan when available. High-risk patients should receive early follow-up after discharge.
+
+Escalation Criteria
+
+Escalation is recommended for severe shortness of breath, poor response to rescue therapy, signs of respiratory distress, repeated emergency visits, or uncertainty about medication safety. Escalation may include provider notification, respiratory therapy review, urgent evaluation, or emergency referral.
+
+Documentation Requirements
+
+Documentation should include asthma control status, symptom frequency, rescue inhaler use, controller medication review, inhaler technique education, trigger assessment, action plan status, and follow-up plan.
+
+Quality Metrics
+
+Suggested metrics include percentage of asthma patients with control assessment documented, percentage with inhaler technique education, percentage with action plan documentation, asthma-related emergency encounter rate, and follow-up completion after asthma exacerbation.
+
+Disclaimer
+
+This document is fictional and created for the MIRA portfolio project. It supports AI system testing only.

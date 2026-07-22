@@ -1,0 +1,45 @@
+Chronic Kidney Disease Management Guideline
+
+Purpose
+
+This simulated guideline describes a standardized approach for identifying, monitoring, and managing patients with chronic kidney disease in the MIRA demonstration system. It is intended for portfolio evaluation, retrieval testing, and clinical intelligence workflow simulation only. It is not medical advice and should not be used for real patient care.
+
+Scope
+
+This guideline applies to adult patients with documented chronic kidney disease, reduced estimated kidney function, persistent albuminuria, diabetes with kidney involvement, hypertension with kidney involvement, or a history of progressive renal impairment. The guideline is designed to support population health analytics, care coordination, discharge planning, and risk stratification.
+
+Risk Criteria
+
+Patients may be considered higher risk when they have chronic kidney disease combined with diabetes, hypertension, heart failure, advanced age, recurrent hospitalizations, abnormal potassium values, abnormal creatinine trends, or multiple active medications. Patients with worsening kidney function, repeated abnormal laboratory results, or recent emergency encounters should receive closer follow-up.
+
+Monitoring Requirements
+
+Patients with chronic kidney disease should have kidney function monitored at regular intervals based on risk level. Monitoring may include serum creatinine, estimated glomerular filtration rate, urine albumin assessment, blood pressure review, medication review, and evaluation for abnormal potassium levels. Patients with diabetes or hypertension should receive additional monitoring because these conditions may accelerate kidney disease progression.
+
+Medication Review
+
+Medication reconciliation is required for patients with chronic kidney disease during admission, transfer, discharge, and outpatient follow-up. Medications that may affect kidney function should be reviewed carefully. Dose adjustments may be required for some medications when kidney function is reduced. High-risk medication combinations should be flagged for clinician review.
+
+Blood Pressure and Diabetes Considerations
+
+Blood pressure control is an important part of chronic kidney disease management. Patients with both hypertension and chronic kidney disease should have blood pressure values reviewed during routine encounters. Patients with diabetes should also have glycemic control monitored, including A1c trends when available. The care team should consider both kidney function and diabetes status when planning follow-up.
+
+Escalation Criteria
+
+Escalation is recommended when a patient has rapidly worsening kidney function, severe electrolyte abnormalities, repeated abnormal potassium values, symptoms suggesting volume overload, uncontrolled hypertension, or medication safety concerns. Escalation may include notifying the responsible provider, arranging urgent follow-up, reviewing recent laboratory values, or referring the patient for specialist evaluation.
+
+Discharge Planning
+
+Patients with chronic kidney disease should not be discharged without clear follow-up instructions when recent laboratory abnormalities are present. The discharge plan should include medication instructions, warning signs, follow-up appointment timing, laboratory monitoring requirements, and patient education. High-risk patients should receive additional care transition support.
+
+Documentation Requirements
+
+The care team should document the patient’s chronic kidney disease status, recent kidney function values, medication review, follow-up plan, education provided, and escalation actions if applicable. Documentation should be clear enough for another clinician or care coordinator to understand why the patient was considered stable or high risk.
+
+Quality Metrics
+
+Suggested quality metrics include the percentage of chronic kidney disease patients with recent kidney function monitoring, percentage with medication reconciliation completed, percentage with documented follow-up, percentage with abnormal potassium values escalated, and readmission rate among chronic kidney disease patients.
+
+Disclaimer
+
+This document is fictional and created for the MIRA portfolio project. It is intended to support RAG evaluation and system demonstration only.

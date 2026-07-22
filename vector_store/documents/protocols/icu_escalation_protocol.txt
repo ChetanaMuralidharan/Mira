@@ -1,0 +1,153 @@
+ICU Escalation Protocol
+
+Purpose
+
+This simulated protocol establishes standardized criteria for recognizing clinical deterioration requiring escalation to intensive care evaluation within the MIRA demonstration system. The protocol supports Retrieval-Augmented Generation benchmarking and is not intended for actual clinical use.
+
+Scope
+
+This protocol applies to adult inpatients experiencing acute clinical deterioration, worsening respiratory status, cardiovascular instability, neurological decline, severe infection, or other conditions requiring rapid reassessment.
+
+Recognition of Clinical Deterioration
+
+Potential indicators include:
+
+• Persistent hypotension
+
+• Rapid heart rate
+
+• Low oxygen saturation
+
+• Increased respiratory distress
+
+• Altered mental status
+
+• Decreased urine output
+
+• Severe laboratory abnormalities
+
+Clinical deterioration should prompt immediate reassessment.
+
+Respiratory Criteria
+
+Escalation should be considered for patients with:
+
+• Increasing oxygen requirements
+
+• Respiratory rate significantly above baseline
+
+• Severe shortness of breath
+
+• Cyanosis
+
+• Inability to maintain adequate oxygenation
+
+Patients with COPD or heart failure should receive careful evaluation because respiratory symptoms may worsen rapidly.
+
+Cardiovascular Criteria
+
+Escalation should be considered for:
+
+• Persistent hypotension
+
+• Chest pain
+
+• New arrhythmias
+
+• Poor perfusion
+
+• Syncope
+
+Patients with heart failure should receive additional evaluation for worsening volume overload or cardiogenic instability.
+
+Neurological Criteria
+
+Urgent evaluation is recommended for:
+
+• Sudden confusion
+
+• Reduced level of consciousness
+
+• New focal neurological deficits
+
+• Seizure activity
+
+• Suspected stroke
+
+Neurological deterioration should never be ignored.
+
+Sepsis Considerations
+
+Patients with suspected infection who demonstrate hypotension, altered mental status, elevated lactate, persistent fever, or rapidly worsening clinical condition should receive prompt reassessment and possible ICU consultation.
+
+Laboratory Review
+
+Critical laboratory abnormalities should trigger provider notification.
+
+Examples include:
+
+• Severe electrolyte abnormalities
+
+• Markedly abnormal blood glucose
+
+• Rising creatinine
+
+• Critical hemoglobin values
+
+• Elevated lactate
+
+Clinical judgment should always accompany laboratory interpretation.
+
+Escalation Actions
+
+Escalation may include:
+
+• Rapid Response Team activation
+
+• ICU consultation
+
+• Senior physician notification
+
+• Repeat laboratory testing
+
+• Additional monitoring
+
+• Immediate bedside evaluation
+
+Escalation should occur promptly whenever patient safety is at risk.
+
+Documentation Requirements
+
+Documentation should include:
+
+• Reason for escalation
+
+• Clinical findings
+
+• Vital signs
+
+• Laboratory abnormalities
+
+• Provider notification
+
+• Response time
+
+• Outcome of escalation
+
+Quality Metrics
+
+Suggested quality indicators include:
+
+• Time from deterioration recognition to provider notification
+
+• ICU transfer documentation completeness
+
+• Rapid Response Team activation time
+
+• Documentation completeness
+
+• Unexpected ICU transfer rate
+
+Disclaimer
+
+This protocol is fictional and developed exclusively for the MIRA AI engineering portfolio project to support Retrieval-Augmented Generation evaluation.

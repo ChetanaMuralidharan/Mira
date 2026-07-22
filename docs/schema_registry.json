@@ -220,6 +220,11 @@
           "data_type": "BIGINT"
         },
         {
+          "name": "primary_diagnosis_system",
+          "description": "",
+          "data_type": "VARCHAR"
+        },
+        {
           "name": "primary_diagnosis_code",
           "description": "",
           "data_type": "VARCHAR"
@@ -318,87 +323,102 @@
       "name": "fact_medications",
       "schema": "marts",
       "full_name": "main_marts.fact_medications",
-      "description": "Medication records with drug class classification. Use is_active = true for currently prescribed medications.",
+      "description": "Medication records enriched with patient demographics, chronic-condition indicators, active prescription status, and mapped medication classes. Use is_active = true for currently prescribed medications.\n",
       "columns": [
         {
           "name": "patient_id",
-          "description": "",
+          "description": "Unique patient identifier.",
           "data_type": "VARCHAR"
         },
         {
           "name": "encounter_id",
-          "description": "",
+          "description": "Encounter associated with the medication record.",
           "data_type": "VARCHAR"
         },
         {
           "name": "rxnorm_code",
-          "description": "",
+          "description": "RxNorm medication code.",
           "data_type": "VARCHAR"
         },
         {
           "name": "medication_name",
-          "description": "",
+          "description": "Medication description from the source record.",
+          "data_type": "VARCHAR"
+        },
+        {
+          "name": "drug_classes",
+          "description": "Medication class or comma-separated class combination derived from the drug-class mapping table. This field may be NULL when no class mapping is available. Exclude NULL and blank values when grouping medication classes.\n",
           "data_type": "VARCHAR"
         },
         {
           "name": "start_date",
-          "description": "",
+          "description": "Date the medication was started.",
           "data_type": "DATE"
         },
         {
           "name": "stop_date",
-          "description": "",
+          "description": "Date the medication was stopped, when available.",
           "data_type": "DATE"
         },
         {
           "name": "is_active",
-          "description": "",
+          "description": "True when the medication does not have a recorded stop date.",
           "data_type": "BOOLEAN"
         },
         {
           "name": "duration_days",
-          "description": "",
+          "description": "Calculated medication duration in days.",
           "data_type": "BIGINT"
         },
         {
-          "name": "base_cost",
-          "description": "",
-          "data_type": "DOUBLE"
-        },
-        {
-          "name": "total_cost",
-          "description": "",
-          "data_type": "DOUBLE"
-        },
-        {
-          "name": "reason_description",
-          "description": "",
-          "data_type": "VARCHAR"
+          "name": "age_at_generation",
+          "description": "Patient age at dataset generation.",
+          "data_type": "BIGINT"
         },
         {
           "name": "gender",
-          "description": "",
+          "description": "Patient gender.",
           "data_type": "VARCHAR"
         },
         {
-          "name": "age_bucket",
-          "description": "",
+          "name": "race",
+          "description": "Patient race.",
+          "data_type": "VARCHAR"
+        },
+        {
+          "name": "ethnicity",
+          "description": "Patient ethnicity.",
           "data_type": "VARCHAR"
         },
         {
           "name": "has_diabetes",
-          "description": "",
+          "description": "Binary indicator for diabetes.",
           "data_type": "INTEGER"
         },
         {
           "name": "has_hypertension",
-          "description": "",
+          "description": "Binary indicator for hypertension.",
           "data_type": "INTEGER"
         },
         {
-          "name": "drug_class",
-          "description": "",
-          "data_type": "VARCHAR"
+          "name": "has_copd",
+          "description": "Binary indicator for COPD.",
+          "data_type": "INTEGER"
+        },
+        {
+          "name": "has_heart_failure",
+          "description": "Binary indicator for heart failure.",
+          "data_type": "INTEGER"
+        },
+        {
+          "name": "has_ckd",
+          "description": "Binary indicator for chronic kidney disease.",
+          "data_type": "INTEGER"
+        },
+        {
+          "name": "has_asthma",
+          "description": "Binary indicator for asthma.",
+          "data_type": "INTEGER"
         }
       ]
     },
@@ -409,7 +429,12 @@
       "description": "",
       "columns": [
         {
-          "name": "icd10_code",
+          "name": "condition_system",
+          "description": "",
+          "data_type": "VARCHAR"
+        },
+        {
+          "name": "condition_code",
           "description": "",
           "data_type": "VARCHAR"
         },

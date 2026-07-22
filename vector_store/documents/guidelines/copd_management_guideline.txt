@@ -1,0 +1,49 @@
+COPD Management Guideline
+
+Purpose
+
+This simulated guideline describes a standardized approach for chronic obstructive pulmonary disease management in the MIRA clinical intelligence demonstration system. It supports retrieval-augmented generation, hybrid SQL and RAG evaluation, and portfolio testing. It is not medical advice and must not be used for real clinical decisions.
+
+Scope
+
+This guideline applies to adult patients with chronic obstructive pulmonary disease, emphysema, chronic bronchitis, recurrent respiratory symptoms, or repeated respiratory-related encounters. It is especially relevant for patients with frequent exacerbations, emergency visits, hospital admissions, smoking history, oxygen use, or overlapping heart failure.
+
+Risk Criteria
+
+Patients with COPD may be considered high risk when they have recent exacerbations, repeated emergency encounters, low oxygen saturation, increased shortness of breath, pneumonia risk, poor medication adherence, active tobacco use, or multiple chronic conditions. Patients with COPD and heart failure require careful evaluation because symptoms may overlap.
+
+Assessment Requirements
+
+Patients with COPD should be assessed for respiratory symptoms, recent exacerbations, medication use, inhaler technique, oxygen requirements, smoking status, vaccination status, and history of hospitalization. The care team should ask about worsening cough, sputum change, shortness of breath, activity limitation, fever, and rescue medication use.
+
+Medication and Inhaler Review
+
+Medication review should confirm whether the patient is using maintenance inhalers, rescue inhalers, or other respiratory medications as intended. Inhaler technique should be assessed because incorrect technique may reduce treatment effectiveness. Patients should receive education on the difference between maintenance and rescue therapy.
+
+Exacerbation Management
+
+A COPD exacerbation may be suspected when the patient has increased shortness of breath, increased cough, increased sputum production, change in sputum color, wheezing, or reduced activity tolerance. Patients with severe symptoms, low oxygen levels, confusion, chest pain, or inability to speak in full sentences should be escalated promptly.
+
+Discharge and Follow-Up
+
+Patients discharged after a COPD-related encounter should receive clear instructions on medications, inhaler use, warning signs, follow-up timing, and when to seek urgent care. High-risk patients should receive follow-up within a short interval after discharge. Discharge planning should include smoking cessation resources when relevant.
+
+Patient Education
+
+Patient education should cover symptom monitoring, inhaler technique, avoidance of triggers, vaccination awareness, smoking cessation, activity pacing, and recognition of exacerbation warning signs. Patients should understand when to contact their care team and when to seek emergency care.
+
+Escalation Criteria
+
+Escalation is recommended for severe shortness of breath, low oxygen saturation, confusion, chest pain, cyanosis, worsening symptoms despite rescue medication, or repeated exacerbations. Escalation may include provider notification, urgent evaluation, respiratory therapy review, or emergency referral.
+
+Documentation Requirements
+
+Documentation should include COPD status, symptom assessment, medication review, inhaler education, smoking status, oxygen needs, exacerbation history, escalation actions, and follow-up plan.
+
+Quality Metrics
+
+Suggested quality metrics include COPD readmission rate, percentage of COPD discharges with follow-up documented, percentage with inhaler education completed, percentage with smoking status documented, and number of emergency encounters among COPD patients.
+
+Disclaimer
+
+This document is fictional and created for the MIRA portfolio project. It is intended only for software evaluation and demonstration.

@@ -50,7 +50,74 @@ models:
           True if value is outside the clinical reference range for this LOINC code.
           NULL if no reference range is defined.
 
+  # - name: fact_medications
+  #   description: >
+  #     Medication records with drug class classification.
+  #     Use is_active = true for currently prescribed medications.
+
   - name: fact_medications
     description: >
-      Medication records with drug class classification.
+      Medication records enriched with patient demographics, chronic-condition
+      indicators, active prescription status, and mapped medication classes.
       Use is_active = true for currently prescribed medications.
+    columns:
+      - name: patient_id
+        description: Unique patient identifier.
+
+      - name: encounter_id
+        description: Encounter associated with the medication record.
+
+      - name: rxnorm_code
+        description: RxNorm medication code.
+
+      - name: medication_name
+        description: Medication description from the source record.
+
+      - name: drug_classes
+        description: >
+          Medication class or comma-separated class combination derived from
+          the drug-class mapping table. This field may be NULL when no class
+          mapping is available. Exclude NULL and blank values when grouping
+          medication classes.
+
+      - name: start_date
+        description: Date the medication was started.
+
+      - name: stop_date
+        description: Date the medication was stopped, when available.
+
+      - name: is_active
+        description: True when the medication does not have a recorded stop date.
+
+      - name: duration_days
+        description: Calculated medication duration in days.
+
+      - name: age_at_generation
+        description: Patient age at dataset generation.
+
+      - name: gender
+        description: Patient gender.
+
+      - name: race
+        description: Patient race.
+
+      - name: ethnicity
+        description: Patient ethnicity.
+
+      - name: has_diabetes
+        description: Binary indicator for diabetes.
+
+      - name: has_hypertension
+        description: Binary indicator for hypertension.
+
+      - name: has_copd
+        description: Binary indicator for COPD.
+
+      - name: has_heart_failure
+        description: Binary indicator for heart failure.
+
+      - name: has_ckd
+        description: Binary indicator for chronic kidney disease.
+
+      - name: has_asthma
+        description: Binary indicator for asthma.

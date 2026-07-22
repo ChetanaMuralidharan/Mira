@@ -1,0 +1,71 @@
+Stroke Prevention Guideline
+
+Purpose
+
+This simulated guideline outlines a standardized approach for identifying patients at increased risk of stroke and implementing preventive strategies within the MIRA demonstration system. The document supports Retrieval-Augmented Generation (RAG), benchmark evaluation, and clinical intelligence demonstrations. It is not intended for clinical decision-making and should not be used in real patient care.
+
+Scope
+
+This guideline applies to adult patients with hypertension, atrial fibrillation, diabetes mellitus, hyperlipidemia, previous stroke or transient ischemic attack (TIA), chronic kidney disease, tobacco use, obesity, or other cardiovascular risk factors. It also applies to patients discharged following cerebrovascular events who require coordinated follow-up.
+
+Risk Assessment
+
+Stroke risk should be evaluated using the patient's medical history, documented chronic conditions, medication profile, recent blood pressure measurements, smoking status, laboratory findings, and previous hospitalizations. Patients with multiple cardiovascular risk factors should be considered higher priority for preventive interventions.
+
+Patients with atrial fibrillation require special consideration because irregular heart rhythm significantly increases stroke risk. Patients with previous stroke or TIA should also receive enhanced monitoring due to elevated recurrence risk.
+
+Blood Pressure Management
+
+Blood pressure should be assessed during every clinical encounter whenever appropriate. Patients with uncontrolled hypertension should receive follow-up recommendations, medication review, lifestyle counseling, and additional monitoring. Persistent hypertension should prompt reassessment of treatment adherence and possible medication adjustment by the responsible clinician.
+
+Diabetes and Cholesterol Management
+
+Patients with diabetes should have glycemic control monitored through regular HbA1c evaluation. Poor glycemic control may increase long-term vascular complications.
+
+Patients with elevated cholesterol should receive counseling regarding cardiovascular risk reduction. Laboratory trends should be reviewed during routine follow-up, and medication adherence should be assessed during clinical encounters.
+
+Lifestyle Risk Reduction
+
+Patients should receive education regarding smoking cessation, regular physical activity, healthy nutrition, weight management, and alcohol moderation. Lifestyle modification should be documented whenever preventive counseling is provided.
+
+Patients should also be encouraged to recognize early stroke warning signs and seek emergency medical attention immediately if symptoms occur.
+
+Medication Review
+
+Medication reconciliation should be completed during admission, discharge, and outpatient follow-up. Patients receiving anticoagulants or antiplatelet therapy should have medication adherence reviewed and documented.
+
+Potential medication interactions should be identified before discharge, particularly for patients receiving multiple cardiovascular medications.
+
+Discharge Planning
+
+Patients discharged following stroke or TIA should receive clear instructions regarding medication adherence, follow-up appointments, rehabilitation referrals, blood pressure monitoring, diabetes management, and emergency warning signs.
+
+High-risk patients should have documented follow-up within an appropriate timeframe after discharge.
+
+Escalation Criteria
+
+Immediate escalation is recommended for patients experiencing sudden weakness, facial drooping, speech difficulty, vision loss, confusion, severe dizziness, loss of coordination, or sudden severe headache.
+
+Any suspected acute stroke should be treated as a medical emergency requiring immediate evaluation.
+
+Documentation Requirements
+
+Clinical documentation should include identified stroke risk factors, medication review, patient education, blood pressure status, diabetes control, smoking status, follow-up recommendations, and any escalation actions performed.
+
+Quality Metrics
+
+Suggested quality indicators include:
+
+• Percentage of hypertensive patients with documented blood pressure review
+
+• Percentage of diabetic patients with recent HbA1c assessment
+
+• Medication reconciliation completion rate
+
+• Follow-up completion after stroke discharge
+
+• Thirty-day stroke readmission rate
+
+Disclaimer
+
+This document is fictional and created solely for the MIRA portfolio project to support retrieval evaluation and AI system testing.

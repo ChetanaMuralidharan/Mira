@@ -1,0 +1,113 @@
+Anticoagulation Management Guideline
+
+Purpose
+
+This simulated guideline establishes standardized recommendations for monitoring patients receiving anticoagulation therapy within the MIRA demonstration platform. It is intended solely for AI evaluation and retrieval benchmarking and should not be used for actual medical care.
+
+Scope
+
+This guideline applies to adult patients receiving anticoagulant therapy for atrial fibrillation, venous thromboembolism, pulmonary embolism, mechanical heart valves, stroke prevention, or other cardiovascular indications.
+
+Patient Assessment
+
+Every patient receiving anticoagulation therapy should undergo routine assessment of bleeding risk, medication adherence, renal function, liver function, concurrent medications, and history of falls or trauma.
+
+Patients with chronic kidney disease, advanced age, liver disease, or previous bleeding complications should receive additional monitoring.
+
+Medication Review
+
+Medication reconciliation should verify:
+
+• Current anticoagulant
+
+• Dose
+
+• Indication
+
+• Duration of therapy
+
+• Concurrent antiplatelet medications
+
+Potential drug interactions should be reviewed during every medication reconciliation process.
+
+Laboratory Monitoring
+
+Patients requiring laboratory monitoring should have results reviewed promptly. Kidney function should be monitored periodically because reduced renal clearance may increase medication exposure.
+
+Unexpected laboratory abnormalities should be evaluated before therapy changes are considered.
+
+Bleeding Assessment
+
+Patients should be assessed for bruising, gastrointestinal bleeding, blood in urine, prolonged bleeding, severe headache, dizziness, weakness, or unexplained anemia.
+
+Patients reporting significant bleeding symptoms should be evaluated urgently.
+
+Patient Education
+
+Education should include:
+
+• Medication adherence
+
+• Bleeding precautions
+
+• Fall prevention
+
+• When to seek emergency care
+
+• Importance of informing healthcare providers before procedures
+
+Patients should understand that stopping anticoagulation without medical advice may increase thrombotic risk.
+
+Discharge Planning
+
+Before discharge, patients should receive:
+
+• Medication instructions
+
+• Bleeding precautions
+
+• Follow-up appointments
+
+• Laboratory monitoring schedule if applicable
+
+• Written education materials
+
+High-risk patients should receive follow-up shortly after discharge.
+
+Escalation Criteria
+
+Immediate escalation should occur for:
+
+• Major bleeding
+
+• Severe head injury while anticoagulated
+
+• Sudden neurological symptoms
+
+• Hemodynamic instability
+
+• Significant laboratory abnormalities
+
+Escalation actions may include emergency evaluation, specialist consultation, medication review, or hospital admission.
+
+Documentation Requirements
+
+Documentation should include medication indication, current therapy, bleeding assessment, education provided, follow-up arrangements, laboratory review, and escalation decisions.
+
+Quality Metrics
+
+Suggested quality measures include:
+
+• Medication reconciliation completion
+
+• Bleeding event documentation
+
+• Follow-up completion
+
+• Education completion
+
+• Thirty-day anticoagulation-related readmission rate
+
+Disclaimer
+
+This guideline is fictional and exists only to support the MIRA AI engineering portfolio project.

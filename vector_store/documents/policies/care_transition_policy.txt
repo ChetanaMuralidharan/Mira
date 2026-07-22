@@ -1,0 +1,119 @@
+Care Transition Policy
+
+Purpose
+
+This simulated policy defines standardized expectations for safe transitions of care between healthcare settings within the MIRA demonstration platform. The policy supports Retrieval-Augmented Generation evaluation and should not be interpreted as real clinical guidance.
+
+Scope
+
+This policy applies whenever responsibility for patient care is transferred between providers, departments, healthcare facilities, rehabilitation centers, skilled nursing facilities, home health agencies, or outpatient providers.
+
+Objectives
+
+The primary objectives of care transition are:
+
+• Reduce preventable readmissions
+
+• Improve communication between providers
+
+• Promote medication safety
+
+• Ensure continuity of care
+
+• Improve patient understanding
+
+Effective communication should accompany every transfer of responsibility.
+
+Communication Requirements
+
+The transferring provider should communicate:
+
+• Primary diagnosis
+
+• Active medical problems
+
+• Recent procedures
+
+• Medication changes
+
+• Pending laboratory results
+
+• Required follow-up
+
+• Outstanding diagnostic studies
+
+Receiving providers should have access to sufficient information to continue safe patient care.
+
+Medication Safety
+
+Medication reconciliation should occur whenever patients move between care settings.
+
+Medication discrepancies should be identified and resolved before transfer whenever possible.
+
+Patients should receive updated medication instructions that clearly identify discontinued medications, newly prescribed medications, dosage changes, and monitoring requirements.
+
+Patient Education
+
+Patients and caregivers should receive education regarding:
+
+• Diagnosis
+
+• Medication changes
+
+• Follow-up appointments
+
+• Warning symptoms
+
+• Emergency contact instructions
+
+Education should be documented before discharge or transfer.
+
+Follow-Up Coordination
+
+Appropriate follow-up appointments should be arranged before discharge whenever possible.
+
+Patients with complex medical conditions should receive coordinated follow-up involving primary care providers, specialists, and case management services when appropriate.
+
+High-Risk Patients
+
+Patients with heart failure, COPD, diabetes, chronic kidney disease, recurrent hospitalizations, multiple medications, or limited social support require enhanced transition planning.
+
+Additional communication between providers should occur for these patients.
+
+Escalation Criteria
+
+Escalation is recommended when:
+
+• Follow-up cannot be arranged
+
+• Medication discrepancies remain unresolved
+
+• Pending diagnostic studies require urgent review
+
+• Patient lacks safe transportation
+
+• Home support is unavailable
+
+• Significant communication failures occur
+
+Documentation Requirements
+
+Documentation should include communication provided, receiving provider information, medication reconciliation status, patient education, follow-up appointments, pending studies, and identified risks.
+
+Quality Metrics
+
+Suggested quality indicators include:
+
+• Readmission rate
+
+• Transition documentation completion
+
+• Medication reconciliation completion
+
+• Follow-up attendance
+
+• Communication completion rate
+
+Disclaimer
+
+This policy is fictional and exists solely to support the MIRA portfolio project and benchmark evaluation.

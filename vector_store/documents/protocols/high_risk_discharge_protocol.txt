@@ -1,0 +1,103 @@
+High-Risk Patient Discharge Protocol
+
+Purpose
+
+This simulated protocol establishes standardized procedures for identifying, preparing, and safely discharging high-risk patients within the MIRA demonstration system. The protocol is intended solely for Retrieval-Augmented Generation benchmarking and AI engineering evaluation. It must not be used for actual patient care.
+
+Scope
+
+This protocol applies to adult patients considered at increased risk for hospital readmission or adverse events following discharge. High-risk patients may include individuals with heart failure, chronic obstructive pulmonary disease (COPD), chronic kidney disease, diabetes mellitus, multiple chronic conditions, recent hospitalizations, polypharmacy, advanced age, cognitive impairment, or limited social support.
+
+Identification of High-Risk Patients
+
+Patients should be evaluated before discharge using clinical history, active diagnoses, medication burden, recent admissions, emergency department utilization, laboratory abnormalities, functional status, and documented social concerns.
+
+Patients with two or more chronic diseases should receive additional discharge planning. Individuals with repeated admissions within the previous year should also be considered for enhanced transition support.
+
+Required Discharge Assessment
+
+Before discharge, the care team should verify:
+
+• Clinical stability
+
+• Medication reconciliation completion
+
+• Follow-up appointments scheduled
+
+• Pending laboratory results reviewed
+
+• Home support availability
+
+• Patient understanding of discharge instructions
+
+Any unresolved concerns should be documented before discharge proceeds.
+
+Medication Reconciliation
+
+Medication reconciliation must be completed before discharge. The discharge medication list should be compared with admission medications, inpatient medications, and outpatient medication history.
+
+Medication changes should be explained to the patient and documented clearly.
+
+Patient Education
+
+Education should include:
+
+• Diagnosis explanation
+
+• Medication schedule
+
+• Warning signs requiring medical attention
+
+• Follow-up appointment information
+
+• Self-monitoring instructions
+
+• Contact information for questions
+
+Patients should be encouraged to ask questions and demonstrate understanding using teach-back techniques whenever appropriate.
+
+Follow-Up Planning
+
+High-risk patients should receive follow-up within an appropriate interval after discharge. Follow-up may include primary care, specialty care, home health services, telehealth visits, or care management programs depending on patient needs.
+
+Patients discharged with unresolved issues should receive additional communication between inpatient and outpatient providers.
+
+Escalation Criteria
+
+Escalation before discharge is recommended when:
+
+• Vital signs remain unstable
+
+• Laboratory abnormalities remain unexplained
+
+• Medication reconciliation is incomplete
+
+• Safe discharge destination is uncertain
+
+• Follow-up cannot be arranged
+
+• Patient demonstrates inadequate understanding of discharge instructions
+
+Escalation actions may include delaying discharge, consulting case management, arranging additional services, or notifying the responsible physician.
+
+Documentation Requirements
+
+Documentation should include discharge readiness assessment, medication reconciliation, education completed, follow-up appointments, discharge destination, identified risks, and escalation actions.
+
+Quality Metrics
+
+Suggested quality measures include:
+
+• Thirty-day readmission rate
+
+• Medication reconciliation completion rate
+
+• Follow-up appointment completion
+
+• Patient education documentation
+
+• High-risk discharge checklist completion
+
+Disclaimer
+
+This protocol is fictional and created solely for evaluation of the MIRA Retrieval-Augmented Generation system.

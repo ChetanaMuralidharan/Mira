@@ -73,6 +73,36 @@ Error:
 
 Generate a corrected query."""
 
+
+SQL_GENERATOR_PROMPT_V2 = """You are a SQL generator for a clinical data warehouse running on DuckDB.
+
+Relevant schema (only these tables/columns are available to you):
+{schema_context}
+
+Few-shot examples of correctly answered questions:
+{few_shot_examples}
+
+{retry_context}
+
+Rules:
+- Return ONLY the SQL query. No markdown fences, no explanation, no comments.
+- The query must start with SELECT.
+- Never modify data. Read-only queries only.
+- ALWAYS use the fully-qualified table name exactly as given in the schema above.
+- Use column names exactly as given in the schema above.
+- If the question implies a time window, use CURRENT_DATE for relative dates.
+- For medication-class questions, use `main_marts.fact_medications.drug_classes`.
+- `drug_classes` is a VARCHAR and may contain NULL or blank values.
+- When grouping medication classes, exclude NULL and blank values.
+- Treat the complete stored `drug_classes` value as one category unless the user explicitly asks to split comma-separated classes.
+- Apply `is_active = true` only when the question explicitly asks for active, current, or currently prescribed medications.
+- Do not add an active-medication filter when the question asks for overall prescription frequency or the most frequently prescribed medications.
+
+Question: {question}
+
+SQL:"""
+
+
 SQL_FEW_SHOT_EXAMPLES_V1 = """Q: How many patients are in the dataset?
 SQL: SELECT COUNT(*) AS patient_count FROM main_marts.dim_patients;
 
@@ -87,6 +117,43 @@ SQL: SELECT encounter_month_start, encounter_count FROM main_metrics.metrics_enc
 
 Q: How many patients have both diabetes and hypertension?
 SQL: SELECT COUNT(*) AS patient_count FROM main_marts.dim_patients WHERE has_diabetes = 1 AND has_hypertension = 1;"""
+
+
+SQL_FEW_SHOT_EXAMPLES_V2 = """Q: How many patients are in the dataset?
+SQL: SELECT COUNT(*) AS patient_count FROM main_marts.dim_patients;
+
+Q: What percentage of patients are female?
+SQL: SELECT ROUND(100.0 * SUM(CASE WHEN gender = 'F' THEN 1 ELSE 0 END) / COUNT(*), 1) AS pct_female FROM main_marts.dim_patients;
+
+Q: What is the average A1c for diabetic patients?
+SQL: SELECT ROUND(AVG(latest_a1c_value), 2) AS avg_a1c FROM main_marts.dim_patients WHERE has_diabetes = 1;
+
+Q: Which month has the highest ER visit volume?
+SQL: SELECT encounter_month_start, encounter_count FROM main_metrics.metrics_encounter_volume WHERE encounter_class = 'emergency' ORDER BY encounter_count DESC LIMIT 1;
+
+Q: How many patients have both diabetes and hypertension?
+SQL: SELECT COUNT(*) AS patient_count FROM main_marts.dim_patients WHERE has_diabetes = 1 AND has_hypertension = 1;
+
+Q: Which medication class is prescribed most frequently?
+SQL: SELECT drug_classes, COUNT(*) AS medication_count
+FROM main_marts.fact_medications
+WHERE drug_classes IS NOT NULL
+  AND TRIM(drug_classes) != ''
+GROUP BY drug_classes
+ORDER BY medication_count DESC
+LIMIT 1;
+
+Q: What are the five most frequently prescribed medications?
+SQL: SELECT medication_name, COUNT(*) AS medication_count
+FROM main_marts.fact_medications
+WHERE medication_name IS NOT NULL
+  AND TRIM(medication_name) != ''
+GROUP BY medication_name
+ORDER BY medication_count DESC
+LIMIT 5;"""
+
+
+
 # ============================================================
 # VALIDATOR — LLM sanity check (used only after rule-based checks pass)
 # ============================================================
@@ -138,6 +205,21 @@ Requirements:
 - Do not describe the SQL itself — the user sees that separately.
 - End with one suggested follow-up question a clinical user might naturally ask next."""
 
+RESPONSE_SYNTHESIZER_SQL_PROMPT_V2 = """Write a concise plain-English answer to a clinical operations question using the complete SQL result provided.
+
+Question: {question}
+SQL result: {sql_result}
+
+Requirements:
+- State the requested answer directly.
+- When the SQL result contains multiple rows, a ranking, a top-N list, a breakdown, or a comparison, include every returned row in the answer.
+- For ranked results, preserve the SQL result order and include both the category or item name and its corresponding numeric value.
+- Do not summarize a top-N result by mentioning only the first item.
+- When the SQL result contains one row and one numeric value, state that value clearly.
+- Note relevant limitations briefly when appropriate.
+- Do not describe the SQL query itself because the user can view it separately.
+- End with one useful follow-up question."""
+
 RESPONSE_SYNTHESIZER_HYBRID_PROMPT_V1 = """Combine a structured data result and a document-based answer into one coherent response.
 
 Question: {question}
@@ -175,13 +257,13 @@ RESPONSE_SYNTHESIZER_SQL_FAILURE_V1 = (
 
 INTENT_CLASSIFIER_PROMPT = INTENT_CLASSIFIER_PROMPT_V1
 SCHEMA_TABLE_EMBEDDING_TEMPLATE = SCHEMA_TABLE_EMBEDDING_TEMPLATE_V1
-SQL_GENERATOR_PROMPT = SQL_GENERATOR_PROMPT_V1
+SQL_GENERATOR_PROMPT = SQL_GENERATOR_PROMPT_V2
 SQL_GENERATOR_RETRY_CONTEXT_TEMPLATE = SQL_GENERATOR_RETRY_CONTEXT_TEMPLATE_V1
-SQL_FEW_SHOT_EXAMPLES = SQL_FEW_SHOT_EXAMPLES_V1
+SQL_FEW_SHOT_EXAMPLES = SQL_FEW_SHOT_EXAMPLES_V2
 VALIDATOR_SANITY_CHECK_PROMPT = VALIDATOR_SANITY_CHECK_PROMPT_V1
 RAG_SYNTHESIZER_PROMPT = RAG_SYNTHESIZER_PROMPT_V1
 RAG_CHUNK_FORMAT_TEMPLATE = RAG_CHUNK_FORMAT_TEMPLATE_V1
-RESPONSE_SYNTHESIZER_SQL_PROMPT = RESPONSE_SYNTHESIZER_SQL_PROMPT_V1
+RESPONSE_SYNTHESIZER_SQL_PROMPT = RESPONSE_SYNTHESIZER_SQL_PROMPT_V2
 RESPONSE_SYNTHESIZER_HYBRID_PROMPT = RESPONSE_SYNTHESIZER_HYBRID_PROMPT_V1
 RESPONSE_SYNTHESIZER_CAVEAT = RESPONSE_SYNTHESIZER_CAVEAT_V1
 RESPONSE_SYNTHESIZER_OUT_OF_SCOPE = RESPONSE_SYNTHESIZER_OUT_OF_SCOPE_V1
